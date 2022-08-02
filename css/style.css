@@ -1,7 +1,114 @@
 /*
 Color theme:
-Actionable Elements, Links Buttons & Menus (Blue): #46A0F8
-Header/Paragraph Text/Header & Footer (Black): #1F1F1F
-Main Background (Grey): #BFC0C5
-Contrasting Text/Boxes & Containers/Alternate Background (White): #FFFFFF
+Actionable Elements, Links Buttons & Menus (Blue): #46A0F8;
+Header/Paragraph Text/Header & Footer (Black): #1F1F1F;
+Main Background (Grey): #BFC0C5;
+Contrasting Text/Boxes & Containers/Alternate Background (White): #FFFFFF;
 */
+
+/*
+Typography:
+Poppins Semi Bold
+Use - Headings
+Sizes - 56px, 35px, 27px, 25px, 20px
+
+Avenir
+Use - Emphasized paragraphs
+Sizes - 14px
+
+Avenir Light
+Use - Paragraphs & headings
+Sizes - 14px, 18px, 25px
+*/
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+</style>
+
+@font-face {
+  font-family:"Avenir-Light";
+  src: url("Avenir-Light.eot");
+  src: url("Avenir-Light.woff") format("woff"),
+  url("Avenir-Light.otf") format("opentype"),
+  url("Avenir-Light.svg#filename") format("svg");
+}
+
+@font-face {
+  font-family:"Avenir-Roman";
+  src: url("Avenir-Roman.eot");
+  src: url("Avenir-Roman.woff") format("woff"),
+  url("Avenir-Roman.otf") format("opentype"),
+  url("Avenir-Roman.svg#filename") format("svg");
+}
+
+body {
+  background-color: #BFC0C5;
+  font-family: 'Avenir-Light',sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #1F1F1F
+}
+
+h1 {
+  font-family: 'Poppins',sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  color: #1F1F1F
+}
+
+h2 {
+  font-family:'Poppins',sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #1F1F1F
+}
+
+h3{
+  font-family: 'Poppins',sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  color: #1F1F1F
+}
+
+h4 {
+  font-family: 'Poppins',sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #1F1F1F
+
+}
+
+h5 {
+  font-family: 'Avenir-Light',sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  color: #1F1F1F
+}
+
+h6 {
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #46A0F8
+}
+
+/* No need for P1 - is inherited from body */
+
+.p1-spaced {
+  font-family: 'Avenir-Light',sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 4.5px
+}
+
+.p2 {
+font-family: 'Avenir-Roman',sans-serif;
+font-size: 14px;
+font-weight: normal;
+}
+
+.p3 {
+font-family: 'Avenir-Light', sans-serif;
+font-size: 14px;
+font-weight: normal;
+}
