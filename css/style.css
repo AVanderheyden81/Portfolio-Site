@@ -114,7 +114,7 @@ img {
   height: auto;
 }
 
-/* ********** LINKS ********** */
+/* ******************** LINKS ******************** */
 
 a {
   color: #46A0F8;
@@ -125,7 +125,6 @@ a:focus {
   color: #FFFFFF;
 }
 
-
 a::selection {
   color: #FFFFFF;
 }
@@ -133,13 +132,15 @@ a:active {
   color: #FFFFFF;
 }
 
-/* ********** TEXT ********** */
+/* ******************** TEXT ******************** */
 
 .uppercase {
   text-transform: uppercase;
 }
 
-/* ********** BUTTONS ********** */
+/* ******************** DISPLAY ******************** */
+
+/* ***** BUTTON DISPLAY ***** */
 
 .button {
   display: inline-block;
@@ -152,6 +153,21 @@ a:active {
   padding-right: 30px;
   border-radius: 100px;
 }
+
+/* ******************** STATES ******************** */
+
+/* ***** BUTTON STATES ***** */
+
 .button:hover {
-opacity: 0.8;
+  opacity: 0.8;
+}
+
+/* ***** ICON STATES ***** */
+
+.icon-hover:hover {
+  opacity: 0.5;
+}
+
+#block_container { 
+  display: flex;
 }
