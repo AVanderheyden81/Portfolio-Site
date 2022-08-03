@@ -21,10 +21,6 @@ Use - Paragraphs & headings
 Sizes - 14px, 18px, 25px
 */
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-</style>
-
 @font-face {
   font-family:"Avenir-Light";
   src: url("Avenir-Light.eot");
@@ -116,4 +112,46 @@ font-weight: normal;
 img {
   width: 100%;
   height: auto;
+}
+
+/* ********** LINKS ********** */
+
+a {
+  color: #46A0F8;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #FFFFFF;
+}
+
+
+a::selection {
+  color: #FFFFFF;
+}
+a:active {
+  color: #FFFFFF;
+}
+
+/* ********** TEXT ********** */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* ********** BUTTONS ********** */
+
+.button {
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: #46A0F8;
+  font-family: 'Avenir-Light';
+  font-weight: bolder;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 100px;
+}
+.button:hover {
+opacity: 0.8;
 }
