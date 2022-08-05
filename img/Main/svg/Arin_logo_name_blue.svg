@@ -1,0 +1,22 @@
+<svg width="401" height="80" viewBox="0 0 401 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Arin_logo_name_blue">
+<g id="Arin_logo_only_blue" filter="url(#filter0_d_24_28)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M72.5593 0.298987C67.5387 1.18504 65.6986 1.62466 62.6593 2.66386C52.3174 6.19941 42.3639 12.4998 30.3756 23.0988C17.4486 34.5274 6.18266 50.4157 3.56565 60.9082C1.78705 68.0403 4.30537 73.7368 9.67893 74.7361C11.2128 75.0213 11.8244 74.9731 14.0885 74.3893C22.6625 72.1772 38.8206 63.5283 53.6874 53.193C56.128 51.4964 58.7054 49.9269 59.0513 49.9269C59.5182 49.9269 59.1868 51.0261 58.0437 53.2703C56.5602 56.1819 56.1664 57.5827 56.1642 59.9544C56.1608 63.3758 58.3626 65.6872 61.2488 65.2915C64.3673 64.8639 77.1384 57.8182 79.4757 55.2355C80.1229 54.5202 80.0579 53.6948 79.3176 53.2286C78.9123 52.9733 78.0408 53.3576 75.141 55.0706C68.8369 58.7943 61.1408 62.2215 60.0351 61.7974C58.8725 61.3512 59.697 58.772 62.1974 55.0316C64.0329 52.2859 65.839 50.189 71.5956 44.1187C73.7377 41.8602 75.5949 39.729 75.723 39.3828C76.0234 38.571 75.2803 36.7772 74.462 36.3391C73.6551 35.9072 72.731 36.2596 70.8057 37.7335C69.5209 38.717 46.2323 54.2557 39.9201 58.3407C30.288 64.5746 26.0953 66.8736 18.8269 69.9055C13.0112 72.3313 8.64746 72.564 6.4379 70.5657C3.32217 67.7479 4.94331 61.1273 10.9956 51.953C16.027 44.326 20.9309 38.3819 27.9869 31.3569C45.3738 14.0464 63.3875 4.44865 78.491 4.44865C84.2936 4.44865 89.135 5.92344 92.3232 8.66204C93.8741 9.99421 95.2981 12.7164 95.6029 14.9312C96.0162 17.9365 94.2574 22.6341 91.1379 26.8564C90.4431 27.7973 88.6069 29.8927 87.0579 31.5132C84.6943 33.9857 84.3029 34.5342 84.6256 34.9228C85.2935 35.7278 86.0144 35.4401 88.3675 33.4288C94.1386 28.4968 97 22.7417 97 16.0676C97 11.8907 95.0754 7.7862 91.8619 5.11009C90.1414 3.67768 86.1176 1.64414 83.2326 0.890813C78.4908 -0.347345 74.4604 -0.0363761 72.5593 0.298987Z" fill="#46A0F8"/>
+</g>
+<rect id="Rectangle 20" x="117" y="29" width="16" height="16" fill="white"/>
+<text id="Arin Vanderheyden" fill="#46A0F8" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="25" font-weight="600" letter-spacing="0em"><tspan x="153" y="31.75">Arin Vanderheyden</tspan></text>
+<text id="UX Designer" fill="#787878" xml:space="preserve" style="white-space: pre" font-family="Avenir" font-size="18" font-weight="300" letter-spacing="0em"><tspan x="153" y="55.206">UX DESIGNER</tspan></text>
+</g>
+<defs>
+<filter id="filter0_d_24_28" x="0.89361" y="-1.52588e-05" width="98.2128" height="79.1185" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2.10639"/>
+<feGaussianBlur stdDeviation="1.05319"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_24_28"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_24_28" result="shape"/>
+</filter>
+</defs>
+</svg>
