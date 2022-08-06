@@ -39,8 +39,9 @@ Sizes - 14px, 18px, 25px
 
 header {
   background-color: #1F1F1F;
-  padding: 50px;
+  padding: 50px 20px;
   margin: 0px;
+  border-bottom: 4px solid #ffffff;
 }
 
 body {
@@ -94,7 +95,11 @@ h6 {
   color: #46A0F8
 }
 
-/* No need for P1 - is inherited from body */
+/* ******************** PARAGRAPHS ********************  */
+
+p {
+  line-height: 1.5;
+}
 
 .p1-spaced {
   font-family: 'Avenir-Light',sans-serif;
@@ -174,8 +179,10 @@ a:active {
   opacity: 0.5;
 }
 
-#block_container {
-  display: flex;
+/* ******************** DISPLAY ******************** */
+
+#social-icons {
+  display: inline-block;
 }
 
 .logo {
