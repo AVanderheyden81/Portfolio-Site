@@ -37,9 +37,15 @@ Sizes - 14px, 18px, 25px
   url("Avenir-Roman.svg#filename") format("svg");
 }
 
+/* ******************** SECTIONS ********************  */
+
+* {
+  box-sizing: border-box;
+}
+
 header {
   background-color: #1F1F1F;
-  padding: 50px 20px;
+  padding: 50px 10px;
   margin: 0px;
   border-bottom: 4px solid #ffffff;
   display: flex;
@@ -52,6 +58,18 @@ body {
   font-weight: normal;
   color: #1F1F1F
 }
+
+/* *************** LAYOUT STYLING *************** */
+
+/* MIXIMUM SIZE CONTAINER TO HOLD LAYOUT TOGETHER */
+
+.header-container{
+padding: 0 10px;
+}
+
+
+/* ******************** HEADINGS ********************  */
+
 
 h1 {
   font-family: 'Poppins',sans-serif;
@@ -152,8 +170,6 @@ a:active {
 
 /* ******************** DISPLAY ******************** */
 
-/* ***** BUTTON DISPLAY ***** */
-
 .button {
   display: inline-block;
   color: #FFFFFF;
@@ -166,19 +182,6 @@ a:active {
   border-radius: 100px;
 }
 
-/* ******************** STATES ******************** */
-
-.button:hover {
-  opacity: 0.8;
-}
-
-#icon-hover:hover {
-  opacity: 0.5;
-  display: inline-block;
-}
-
-/* ******************** DISPLAY ******************** */
-
 .social-icons {
   display: inline-block;
 }
@@ -189,4 +192,15 @@ a:active {
 
 .Arin_logo_only_blue_noglo {
   filter: drop-shadow(0px 4px 2px rgba(255, 255, 255, 1));
+}
+
+/* *************** STATES *************** */
+
+.button:hover {
+  opacity: 0.8;
+}
+
+#icon-hover:hover {
+  opacity: 0.5;
+  display: inline-block;
 }
