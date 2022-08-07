@@ -37,7 +37,10 @@ Sizes - 14px, 18px, 25px
   url("Avenir-Roman.svg#filename") format("svg");
 }
 
-/* ******************** SECTIONS ********************  */
+
+/* *************** LAYOUT STYLING *************** */
+
+/* SECTIONS */
 
 * {
   box-sizing: border-box;
@@ -59,14 +62,19 @@ body {
   color: #1F1F1F
 }
 
-/* *************** LAYOUT STYLING *************** */
-
-/* MIXIMUM SIZE CONTAINER TO HOLD LAYOUT TOGETHER */
+/* CONTAINERS */
 
 .header-container{
 padding: 0 10px;
 }
 
+.hero-container{
+padding: 200px;
+}
+
+.footer-container{
+padding: 0 10px;
+}
 
 /* ******************** HEADINGS ********************  */
 
