@@ -5,7 +5,6 @@ Header/Paragraph Text/Header & Footer (Black): #1F1F1F;
 Main Background (Grey): #BFC0C5;
 Contrasting Text/Boxes & Containers/Alternate Background (White): #FFFFFF;
 */
-
 /*
 Typography:
 Poppins Semi Bold
@@ -20,28 +19,24 @@ Avenir Light
 Use - Paragraphs & headings
 Sizes - 14px, 18px, 25px
 */
-
 @font-face {
-  font-family:"Avenir-Light";
+  font-family: "Avenir-Light";
   src: url("Avenir-Light.eot");
   src: url("Avenir-Light.woff") format("woff"),
-  url("Avenir-Light.otf") format("opentype"),
-  url("Avenir-Light.svg#filename") format("svg");
+    url("Avenir-Light.otf") format("opentype"),
+    url("Avenir-Light.svg#filename") format("svg");
 }
 
 @font-face {
-  font-family:"Avenir-Roman";
+  font-family: "Avenir-Roman";
   src: url("Avenir-Roman.eot");
   src: url("Avenir-Roman.woff") format("woff"),
-  url("Avenir-Roman.otf") format("opentype"),
-  url("Avenir-Roman.svg#filename") format("svg");
+    url("Avenir-Roman.otf") format("opentype"),
+    url("Avenir-Roman.svg#filename") format("svg");
 }
 
-
 /* *************** LAYOUT STYLING *************** */
-
 /* SECTIONS */
-
 * {
   box-sizing: border-box;
 }
@@ -51,100 +46,148 @@ header {
   padding: 50px 10px;
   margin: 0px;
   border-bottom: 4px solid #ffffff;
-  display: flex;
 }
 
 body {
   background-color: #BFC0C5;
-  font-family: 'Avenir-Light',sans-serif;
+  font-family: 'Avenir-Light', sans-serif;
   font-size: 18px;
   font-weight: normal;
   color: #1F1F1F
 }
 
 /* CONTAINERS */
-
-.header-container{
-padding: 0 10px;
+.header-container {
+  padding: 0 10px;
 }
 
-.hero-container{
-padding: 200px;
+.hero-container {
+  border: solid #AA4A44;
+  padding: 100px;
+  margin: 0px;
+  display: flex;
 }
 
-.footer-container{
-padding: 0 10px;
+.profile-container {
+  border: solid #AA4A44;
+  background-color: #FFFFFF;
+  padding: 40px 100px 40px 100px;
+  margin: 100px 50px 100px 100px;
+  flex: 50%;
+}
+
+.welcome-container {
+  border: solid #AA4A44;
+  padding: 0px;
+  margin: 100px 100px 100px 50px;
+  flex: 50%;
+}
+
+.footer-container {
+  padding: 0 10px;
+}
+
+/* ELEMENTS */
+.block-container {
+  display: block;
+}
+
+.breakline {
+  border: solid #AA4A44;
+  border-top: solid #1f1f1f;
+  border-width: thin;
+  width: 50px;
+  margin: 0px auto 30px auto;
+}
+
+.social-container{
+  border: solid #AA4A44;
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+
+}
+
+.social-icons {
+  display: inline-block;
+}
+
+#temp{
+  margin: auto;
+
+}
+
+#name-title{
+  border: solid #AA4A44;
+  text-align: center;
+  padding: 10px 10px;
 }
 
 /* ******************** HEADINGS ********************  */
-
-
 h1 {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 56px;
   font-weight: 600;
   color: #1F1F1F
 }
 
 h2 {
-  font-family:'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 35px;
   font-weight: 600;
   color: #1F1F1F
 }
 
-h3{
-  font-family: 'Poppins',sans-serif;
+h3 {
+  font-family: 'Poppins', sans-serif;
   font-size: 27px;
   font-weight: 600;
   color: #1F1F1F
 }
 
 h4 {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 25px;
   font-weight: 600;
   color: #1F1F1F
-
 }
 
 h5 {
-  font-family: 'Avenir-Light',sans-serif;
+  font-family: 'Avenir-Light', sans-serif;
   font-size: 25px;
   font-weight: normal;
   color: #1F1F1F
 }
 
 h6 {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: normal;
   color: #46A0F8
 }
 
 /* ******************** PARAGRAPHS ********************  */
-
 p {
   line-height: 1.5;
 }
 
 .p1-spaced {
-  font-family: 'Avenir-Light',sans-serif;
+  font-family: 'Avenir-Light', sans-serif;
   font-size: 18px;
   font-weight: normal;
   letter-spacing: 4.5px
 }
 
 .p2 {
-font-family: 'Avenir-Roman',sans-serif;
-font-size: 14px;
-font-weight: normal;
+  font-family: 'Avenir-Roman', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .p3 {
-font-family: 'Avenir-Light', sans-serif;
-font-size: 14px;
-font-weight: normal;
+  font-family: 'Avenir-Light', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 img {
@@ -158,26 +201,43 @@ a {
   color: #46A0F8;
   text-decoration: none;
 }
+
 a:hover,
 a:focus {
   color: #FFFFFF;
 }
 
-a::selection {
-  color: #FFFFFF;
-}
 a:active {
-  color: #FFFFFF;
+  color: #ffffff;
 }
+
+nav > ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+nav > ul > li > a:active {
+  padding: 0 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+
 
 /* ******************** TEXT ******************** */
-
 .uppercase {
   text-transform: uppercase;
 }
 
 /* ******************** DISPLAY ******************** */
-
 .button {
   display: inline-block;
   color: #FFFFFF;
@@ -190,12 +250,11 @@ a:active {
   border-radius: 100px;
 }
 
-.social-icons {
-  display: inline-block;
-}
 
 .Arin-logo-combined {
   display: inline-block;
+  max-width: 250px;
+
 }
 
 .Arin_logo_only_blue_noglo {
@@ -203,10 +262,11 @@ a:active {
 }
 
 /* *************** STATES *************** */
-
 .button:hover {
   opacity: 0.8;
 }
+
+
 
 #icon-hover:hover {
   opacity: 0.5;
