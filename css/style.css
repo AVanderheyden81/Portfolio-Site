@@ -42,8 +42,9 @@ Sizes - 14px, 18px, 25px
 }
 
 header {
+  border: solid #AA4A44;
   background-color: #1F1F1F;
-  padding: 50px 10px;
+  padding: 10px 10px;
   margin: 0px;
   border-bottom: 4px solid #ffffff;
 }
@@ -56,9 +57,20 @@ body {
   color: #1F1F1F
 }
 
+footer {
+  border: solid #AA4A44;
+  background-color: #1f1f1f;
+  padding: 10px 10px;
+  margin: 0px;
+  border-top: 4px solid #ffffff;
+}
+
 /* CONTAINERS */
 .header-container {
-  padding: 0 10px;
+  border: solid #AA4A44;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
 }
 
 .hero-container {
@@ -73,23 +85,49 @@ body {
   background-color: #FFFFFF;
   padding: 40px 100px 40px 100px;
   margin: 100px 50px 100px 100px;
-  flex: 50%;
 }
 
 .welcome-container {
   border: solid #AA4A44;
   padding: 0px;
   margin: 100px 100px 100px 50px;
-  flex: 50%;
 }
 
 .footer-container {
-  padding: 0 10px;
+  border: solid #AA4A44;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: auto;
+}
+.copyright-container {
+  border: solid #AA4A44;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* ELEMENTS */
-.block-container {
-  display: block;
+.contact-container {
+  border: solid #AA4A44;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* ********** ELEMENTS ********** */
+.button {
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: #46A0F8;
+  font-family: 'Avenir-Light';
+  font-weight: bolder;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 100px;
 }
 
 .breakline {
@@ -100,27 +138,83 @@ body {
   margin: 0px auto 30px auto;
 }
 
-.social-container{
+.Arin-logo-combined {
+  border: solid #AA4A44;
+  display: inline-block;
+  padding: 10px;
+  align-items: center;
+}
+
+.Arin-logos {
+  border: solid #AA4A44;
+  display: inline-block;
+  padding: 10px;
+}
+
+.navigation {
+  border: solid #AA4A44;
+  display: inline-block;
+  position: absolute;
+  right: 25px;
+  padding: 10px;
+}
+
+.Arin_logo_only_blue_noglo {
+  filter: drop-shadow(0px 4px 2px rgba(255, 255, 255, 1));
+}
+
+.contact-elements-all{
+  border: solid #AA4A44;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-elements-combined {
+  border: solid #AA4A44;
+  display: inline-block;
+  padding: 10px;
+}
+
+.contact-elements {
+  border: solid #AA4A44;
+  display: inline-block;
+  padding: 10px;
+  color: #BFC0C5;
+}
+
+.copyright-element {
+  font-family: 'Avenir-Light', sans-serif;
+  font-size: 10px;
+  font-weight: lighter;
+  color: #BFC0C5
+}
+
+.display-as-block {
+  display: block;
+}
+
+.social-container {
   border: solid #AA4A44;
   display: inline-block;
   margin: auto;
   padding: 10px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-icons {
+  border: solid #AA4A44;
   display: inline-block;
+  padding: 5px;
 }
 
-#temp{
-  margin: auto;
-
-}
-
-#name-title{
+.name-title {
   border: solid #AA4A44;
   text-align: center;
-  padding: 10px 10px;
+  padding: 0px 10px 10px 10px;
 }
 
 /* ******************** HEADINGS ********************  */
@@ -181,7 +275,8 @@ p {
 .p2 {
   font-family: 'Avenir-Roman', sans-serif;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: bold;
+  color: #46A0F8;
 }
 
 .p3 {
@@ -190,13 +285,21 @@ p {
   font-weight: normal;
 }
 
+.contact {
+  border: solid #AA4A44;
+  color: #BFC0C5;
+  font-family: Avenir-Roman;
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px;
+}
+
 img {
   width: 100%;
   height: auto;
 }
 
 /* ******************** LINKS ******************** */
-
 a {
   color: #46A0F8;
   text-decoration: none;
@@ -211,26 +314,29 @@ a:active {
   color: #ffffff;
 }
 
-nav > ul {
+nav>ul {
+  border: solid #AA4A44;
   list-style-type: none;
-  padding: 0px;
+  padding: 10px;
 }
 
-nav > ul > li {
+nav>ul>li {
+  border: solid #AA4A44;
   display: inline-block;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
+  border: solid #AA4A44;
   padding: 0 15px;
   text-transform: uppercase;
+  font-size: 14px;
 }
-nav > ul > li > a:active {
+
+nav>ul>li>a:active {
   padding: 0 15px;
   text-transform: uppercase;
   color: #ffffff;
 }
-
-
 
 /* ******************** TEXT ******************** */
 .uppercase {
@@ -238,35 +344,10 @@ nav > ul > li > a:active {
 }
 
 /* ******************** DISPLAY ******************** */
-.button {
-  display: inline-block;
-  color: #FFFFFF;
-  background-color: #46A0F8;
-  font-family: 'Avenir-Light';
-  font-weight: bolder;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border-radius: 100px;
-}
-
-
-.Arin-logo-combined {
-  display: inline-block;
-  max-width: 250px;
-
-}
-
-.Arin_logo_only_blue_noglo {
-  filter: drop-shadow(0px 4px 2px rgba(255, 255, 255, 1));
-}
-
 /* *************** STATES *************** */
 .button:hover {
   opacity: 0.8;
 }
-
-
 
 #icon-hover:hover {
   opacity: 0.5;
