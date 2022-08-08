@@ -49,7 +49,6 @@ border-width: thin;
   background-color: #1F1F1F;
   padding: 5px 5px;
   margin: 0px;
-  border-bottom: 4px solid #ffffff;
 }
 
 body {
@@ -65,8 +64,10 @@ footer {
 border-width: thin;
   background-color: #1f1f1f;
   padding: 5px 5px;
-  margin: 0px;
-  border-top: 4px solid #ffffff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 101px; /* 101px is footer height */
 }
 
 /* ******************** HEADINGS ********************  */
@@ -76,6 +77,8 @@ h1 {
   font-size: 56px;
   font-weight: 600;
   color: #1F1F1F
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 h2 {
@@ -83,34 +86,46 @@ h2 {
   font-size: 35px;
   font-weight: 600;
   color: #1F1F1F
+  margin-top: 5px;
+  margin-bottom: 5px;
+
 }
 
 h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 27px;
   font-weight: 600;
-  color: #1F1F1F
+  color: #1F1F1F;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
 }
 
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 25px;
   font-weight: 600;
-  color: #1F1F1F
+  color: #1F1F1F;
 }
 
 h5 {
   font-family: 'Avenir-Light', sans-serif;
   font-size: 25px;
   font-weight: normal;
-  color: #1F1F1F
+  color: #1F1F1F;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
 }
 
 h6 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: normal;
-  color: #46A0F8
+  color: #46A0F8;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
 }
 
 /* ******************** PARAGRAPHS ********************  */
@@ -178,7 +193,7 @@ p {
   color: #FFFFFF;
 }
 
-/* CONTAINERS */
+/* ************ CONTAINERS ************ */
 
 .header-container {
   border: solid #AA4A44;
@@ -192,23 +207,27 @@ border-width: thin;
 .hero-container {
   border: solid #AA4A44;
 border-width: thin;
+padding: 100px;
 }
 
 .profile-container {
   border: solid #AA4A44;
-border-width: thick;
+border-width: thin;
   background-color: #FFFFFF;
   display: inline-block;
+  padding: 5px;
   width: 375px;
-  height:auto;
+  height:530px;
+  vertical-align: middle;
 }
 
 .social-container {
   border: solid #AA4A44;
 border-width: thin;
   display: inline-block;
-  margin: auto;
-  padding: 10px;
+  margin-top: 35px;
+  margin-bottom: 5px;
+  padding: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -218,8 +237,9 @@ border-width: thin;
   border: solid #AA4A44;
 border-width: thick;
 display: inline-block;
-width: 600px;
-height:auto;
+width: 500px;
+height:530px;
+vertical-align: middle;
 }
 
 .footer-container {
@@ -269,7 +289,7 @@ border-width: thin;
   border-top: solid #1f1f1f;
   border-width: thin;
   width: 50px;
-  margin: 0px auto 30px auto;
+  margin: 25px auto 25px auto;
 }
 
 .Arin-logo-combined {
@@ -334,6 +354,10 @@ border-width: thin;
   color: #BFC0C5
 }
 
+.portrait{
+  padding: 40px;
+}
+
 .display-as-block {
   display: block;
 }
@@ -351,7 +375,8 @@ border-width: thin;
   border: solid #AA4A44;
 border-width: thin;
   text-align: center;
-  padding: 0px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  margin: 15px 0px 30px 0px;
 }
 
 .contact {
@@ -364,10 +389,14 @@ border-width: thin;
   padding: 10px;
 }
 
-img {
+
+
+img:not(#portrait) {
   width: 100%;
   height: auto;
 }
+
+
 
 svg{
   vertical-align: top;
@@ -430,4 +459,12 @@ nav>ul>li>a:active {
 #icon-hover:hover {
   opacity: 0.5;
   display: inline-block;
+}
+
+#portrait {
+  border: solid #AA4A44;
+border-width: thin;
+
+  border-radius: 50%;
+  margin: 30px 30px 15px 30px;
 }
