@@ -121,10 +121,6 @@ p {
   margin-bottom: 5px;
 }
 
-.p1-normal{
-
-}
-
 .p1-spaced {
   font-family: 'Avenir-Light', sans-serif;
   font-size: 18px;
@@ -182,7 +178,6 @@ p {
   color: #FFFFFF;
 }
 
-
 /* CONTAINERS */
 
 .header-container {
@@ -197,17 +192,15 @@ border-width: thin;
 .hero-container {
   border: solid #AA4A44;
 border-width: thin;
-  padding: 100px;
-  margin: 0px;
-  display: flex;
 }
 
 .profile-container {
   border: solid #AA4A44;
-border-width: thin;
+border-width: thick;
   background-color: #FFFFFF;
-  padding: 40px 100px 40px 100px;
-  margin: 100px 50px 100px 100px;
+  display: inline-block;
+  width: 375px;
+  height:auto;
 }
 
 .social-container {
@@ -221,12 +214,12 @@ border-width: thin;
   justify-content: center;
 }
 
-
 .welcome-container {
   border: solid #AA4A44;
-border-width: thin;
-  padding: 0px;
-  margin: 100px 100px 100px 50px;
+border-width: thick;
+display: inline-block;
+width: 600px;
+height:auto;
 }
 
 .footer-container {
