@@ -283,12 +283,12 @@ p {
   margin: 100px 100px 100px 100px;
 }
 
-.projects-bombora-container {
+.projects-container {
   border: solid #AA4A44;
   border-width: 1px;
   background-color: #FFFFFF;
   padding: 20px 20px 20px 0px;
-  margin: auto;
+  margin: 100PX auto;
   width: 750px;
   height: 400px;
   box-shadow: 5px 5px 10px #1F1F1F;
@@ -299,7 +299,7 @@ p {
   text-align: left;
   padding: 5px;
   margin: 20px 20px 20px 25px;
-  width: 300px;
+  width: 360px;
   display: block;
 }
 
@@ -307,6 +307,24 @@ p {
   display: inline-block;
   margin: auto;
   padding: 10px;
+  margin: 20px 10px 0px 0px;
+  float: right;
+}
+
+.projects-vocwebulary-text {
+  float: left;
+  text-align: left;
+  padding: 5px;
+  margin: 20px 20px 20px 25px;
+  width: 360px;
+  display: block;
+}
+
+.projects-vocwebulary-image {
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+  margin: 20px 10px 0px 0px;
   float: right;
 }
 
@@ -353,7 +371,7 @@ p {
   border: solid #AA4A44;
   border-width: 1px;
   border-top: solid #1f1f1f;
-  border-width: medium;
+  border-width: thin;
   width: 50px;
   margin: 25px auto 25px auto;
   border-color: #46A0F8;
@@ -422,7 +440,7 @@ p {
   padding: 40px;
 }
 
-.square{
+.square {
   height: 48px;
   width: 10px;
   background-color: #46A0F8;
@@ -502,9 +520,8 @@ nav>ul>li>a:active {
   opacity: 0.8;
 }
 
-#icon-hover:hover {
+#state-hover:hover {
   opacity: 0.5;
-  display: inline-block;
 }
 
 #portrait {
