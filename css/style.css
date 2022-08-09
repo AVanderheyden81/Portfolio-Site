@@ -42,12 +42,13 @@ Sizes - 14px, 18px, 25px
   box-sizing: border-box;
 }
 
+
 header {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   border-width: thin;
   background-color: #1F1F1F;
-  padding: 5px 5px;
+  padding: 5px 5px 5px 5px;
   margin: 0px;
 }
 
@@ -56,18 +57,16 @@ body {
   font-family: 'Avenir-Light', sans-serif;
   font-size: 18px;
   font-weight: normal;
-  color: #1F1F1F
+  color: #1F1F1F;
 }
 
 footer {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   background-color: #1f1f1f;
-  padding: 5px 5px;
-  position: relative;
+  padding: 5px 5px 5px 5px;
   bottom: 0;
   width: 100%;
-  margin-top: 101px; /* 101px is footer height */
 }
 
 /* ******************** HEADINGS ********************  */
@@ -193,11 +192,11 @@ p {
   color: #FFFFFF;
 }
 
-/* ************ CONTAINERS ************ */
+/* ********************** CONTAINERS ********************** */
 
 .header-container {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   padding: 5px 5px;
   margin: 5px 5px;
   display: flex;
@@ -205,25 +204,28 @@ border-width: thin;
 }
 
 .hero-container {
-  border: solid #AA4A44;
-border-width: thin;
-padding: 100px;
+  /* border: solid #AA4A44;
+border-width: thin; */
+padding: 150px;
 }
 
 .profile-container {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   background-color: #FFFFFF;
   display: inline-block;
   padding: 5px;
   width: 375px;
   height:530px;
   vertical-align: middle;
+  margin-right: 30px;
+  box-shadow: 5px 5px 10px #1F1F1F;
+
 }
 
 .social-container {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   display: inline-block;
   margin-top: 35px;
   margin-bottom: 5px;
@@ -234,17 +236,19 @@ border-width: thin;
 }
 
 .welcome-container {
-  border: solid #AA4A44;
-border-width: thick;
+  /* border: solid #AA4A44;
+border-width: thin; */
 display: inline-block;
-width: 500px;
+width: 600px;
 height:530px;
 vertical-align: middle;
+padding: 5px;
+margin-left: 30px;
 }
 
 .footer-container {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   padding: 0px 0px;
   display: flex;
   align-items: center;
@@ -254,8 +258,8 @@ border-width: thin;
   margin: auto;
 }
 .copyright-container {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   padding: 0px 0px;
   display: flex;
   align-items: center;
@@ -264,18 +268,19 @@ border-width: thin;
 }
 
 .contact-container {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   padding: 10px;
   display: inline-block;
 }
 
-/* ********** ELEMENTS ********** */
+/* ******************** ELEMENTS ******************** */
+
 .button {
   display: inline-block;
   color: #FFFFFF;
   background-color: #46A0F8;
-  font-family: 'Avenir-Light';
+  font-family:'Avenir-Light';
   font-weight: bolder;
   padding: 10px;
   padding-left: 30px;
@@ -284,17 +289,18 @@ border-width: thin;
 }
 
 .breakline {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   border-top: solid #1f1f1f;
-  border-width: thin;
+  border-width: medium;
   width: 50px;
   margin: 25px auto 25px auto;
+  border-color: #46A0F8;
 }
 
 .Arin-logo-combined {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   display: inline-block;
   padding: 0px 0px 0px 0px;
   margin: 5px 5px 5px 5px;
@@ -302,16 +308,16 @@ border-width: thin;
 }
 
 .Arin-logos {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   display: inline-block; float: left;
   padding: 5px 5px 5px 5px;
   margin: 0px 0px 0px 0px;
 }
 
 .navigation {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   display: inline-block;
   position: absolute;
   right: 25px;
@@ -324,8 +330,8 @@ border-width: thin;
 }
 
 .contact-elements-all{
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   padding: 10px;
   display: flex;
   align-items: center;
@@ -333,15 +339,15 @@ border-width: thin;
 }
 
 .contact-elements-combined {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   display: inline-block;
   padding: 10px;
 }
 
 .contact-elements {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   display: inline-block;
   padding: 10px;
   color: #BFC0C5;
@@ -364,24 +370,24 @@ border-width: thin;
 
 
 .social-icons {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   display: inline-block;
   padding: 0px;
   margin: 5px;
 }
 
 .name-title {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   text-align: center;
   padding: 10px 10px 10px 10px;
   margin: 15px 0px 30px 0px;
 }
 
 .contact {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   color: #BFC0C5;
   font-family: Avenir-Roman;
   font-size: 14px;
@@ -418,22 +424,22 @@ a:active {
 }
 
 nav>ul {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   list-style-type: none;
   padding: 0px;
   margin: 0px;
 }
 
 nav>ul>li {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   display: inline-block;
 }
 
 nav>ul>li>a {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
   padding: 0 15px;
   text-transform: uppercase;
   font-size: 14px;
@@ -462,8 +468,8 @@ nav>ul>li>a:active {
 }
 
 #portrait {
-  border: solid #AA4A44;
-border-width: thin;
+  /* border: solid #AA4A44;
+border-width: thin; */
 
   border-radius: 50%;
   margin: 30px 30px 15px 30px;
