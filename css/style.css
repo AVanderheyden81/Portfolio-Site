@@ -18,6 +18,8 @@ Sizes - 14px
 Avenir Light
 Use - Paragraphs & headings
 Sizes - 14px, 18px, 25px
+
+
 */
 @font-face {
   font-family: "Avenir-Light";
@@ -36,15 +38,13 @@ Sizes - 14px, 18px, 25px
 }
 
 /* *************** LAYOUT STYLING *************** */
-/* SECTIONS */
 * {
   box-sizing: border-box;
 }
 
 header {
-  /* border: solid #AA4A44;
-border-width: thin; */
-  border-width: thin;
+  border: solid #AA4A44;
+  border-width: 1px;
   background-color: #1F1F1F;
   padding: 5px 5px 5px 5px;
   margin: 0px;
@@ -59,8 +59,8 @@ body {
 }
 
 footer {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   background-color: #1f1f1f;
   padding: 5px 5px 5px 5px;
   bottom: 0;
@@ -72,7 +72,8 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 56px;
   font-weight: 600;
-  color: #1F1F1F margin-top: 5px;
+  color: #1F1F1F;
+  margin-top: 5px;
   margin-bottom: 5px;
 }
 
@@ -80,7 +81,8 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 35px;
   font-weight: 600;
-  color: #1F1F1F margin-top: 5px;
+  color: #1F1F1F;
+  margin-top: 5px;
   margin-bottom: 5px;
 }
 
@@ -112,7 +114,7 @@ h5 {
 h6 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: bold;
   color: #46A0F8;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -189,11 +191,10 @@ p {
 }
 
 /* ********************** CONTAINERS ********************** */
-
 /* ********************** MAIN ********************** */
 .header-container {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   padding: 5px 5px;
   margin: 5px 5px;
   display: flex;
@@ -201,8 +202,8 @@ border-width: thin; */
 }
 
 .footer-container {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   padding: 0px 0px;
   display: flex;
   align-items: center;
@@ -213,15 +214,15 @@ border-width: thin; */
 }
 
 .contact-container {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   padding: 10px;
   display: inline-block;
 }
 
 .copyright-container {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   padding: 0px 0px;
   display: flex;
   align-items: center;
@@ -230,16 +231,15 @@ border-width: thin; */
 }
 
 /* ********************** INDEX.HTML ********************** */
-
 .hero-container {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   padding: 150px;
 }
 
 .profile-container {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   background-color: #FFFFFF;
   display: inline-block;
   padding: 5px;
@@ -251,8 +251,8 @@ border-width: thin; */
 }
 
 .social-container {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
   margin-top: 35px;
   margin-bottom: 5px;
@@ -263,8 +263,8 @@ border-width: thin; */
 }
 
 .welcome-container {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
   width: 600px;
   height: 530px;
@@ -274,22 +274,59 @@ border-width: thin; */
 }
 
 /* ********************** PROJECTS.HTML ********************** */
+.projects-intro-container {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 100px 100px 100px 100px;
+}
 
+.projects-bombora-container {
+  border: solid #AA4A44;
+  border-width: 1px;
+  background-color: #FFFFFF;
+  padding: 20px 20px 20px 0px;
+  margin: auto;
+  width: 750px;
+  height: 400px;
+  box-shadow: 5px 5px 10px #1F1F1F;
+}
+
+.projects-bombora-text {
+  float: left;
+  text-align: left;
+  padding: 5px;
+  margin: 20px 20px 20px 25px;
+  width: 300px;
+  display: block;
+}
+
+.projects-bombora-image {
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+  float: right;
+}
 
 /* ******************** ELEMENTS ******************** */
-
 .Arin-logo-combined {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
   padding: 0px 0px 0px 0px;
   margin: 5px 5px 5px 5px;
   align-items: center;
+  /*
+  border: solid #AA4A44;
+  border-width: 1px;
+  */
 }
 
 .Arin-logos {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
   float: left;
   padding: 5px 5px 5px 5px;
@@ -313,8 +350,8 @@ border-width: thin; */
 }
 
 .breakline {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   border-top: solid #1f1f1f;
   border-width: medium;
   width: 50px;
@@ -323,8 +360,8 @@ border-width: thin; */
 }
 
 .contact {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   color: #BFC0C5;
   font-family: Avenir-Roman;
   font-size: 14px;
@@ -333,8 +370,8 @@ border-width: thin; */
 }
 
 .contact-elements-all {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -342,15 +379,15 @@ border-width: thin; */
 }
 
 .contact-elements-combined {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
   padding: 10px;
 }
 
 .contact-elements {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
   padding: 10px;
   color: #BFC0C5;
@@ -364,8 +401,8 @@ border-width: thin; */
 }
 
 .navigation {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
   position: absolute;
   right: 25px;
@@ -374,8 +411,8 @@ border-width: thin; */
 }
 
 .name-title {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   text-align: center;
   padding: 10px 10px 10px 10px;
   margin: 15px 0px 30px 0px;
@@ -385,9 +422,17 @@ border-width: thin; */
   padding: 40px;
 }
 
+.square{
+  height: 48px;
+  width: 10px;
+  background-color: #46A0F8;
+  margin-top: 30px;
+  float: left;
+}
+
 .social-icons {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
   padding: 0px;
   margin: 5px;
@@ -396,6 +441,7 @@ border-width: thin; */
 img:not(#portrait) {
   width: 100%;
   height: auto;
+  vertical-align: middle;
 }
 
 svg {
@@ -403,7 +449,6 @@ svg {
 }
 
 /* ******************** LINKS ******************** */
-
 a {
   color: #46A0F8;
   text-decoration: none;
@@ -419,22 +464,22 @@ a:active {
 }
 
 nav>ul {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   list-style-type: none;
   padding: 0px;
   margin: 0px;
 }
 
 nav>ul>li {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
 }
 
 nav>ul>li>a {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   padding: 0 15px;
   text-transform: uppercase;
   font-size: 14px;
@@ -447,13 +492,11 @@ nav>ul>li>a:active {
 }
 
 /* ******************** TEXT ******************** */
-
 .uppercase {
   text-transform: uppercase;
 }
 
 /* ******************** DISPLAY ******************** */
-
 /* *************** STATES *************** */
 .button:hover {
   opacity: 0.8;
@@ -465,8 +508,8 @@ nav>ul>li>a:active {
 }
 
 #portrait {
-  /* border: solid #AA4A44;
-border-width: thin; */
+  border: solid #AA4A44;
+  border-width: 1px;
   border-radius: 50%;
   margin: 30px 30px 15px 30px;
 }
