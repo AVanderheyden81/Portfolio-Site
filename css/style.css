@@ -330,14 +330,29 @@ p {
 
 /* ********************** BOMBORA.HTML ********************** */
 
-.bombora-intro{
+.project-text-block{
   border: solid #AA4A44;
   border-width: 1px;
   display: block;
   text-align: center;
   padding: 10px;
   margin: 100px 100px 100px 100px;
-
+}
+.project-graphical-block{
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 100px 100px 100px 100px;
+}
+.project-text-graphical-block{
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 100px 100px 100px 100px;
 }
 
 
@@ -380,7 +395,15 @@ p {
   border-radius: 100px;
 }
 
-.breakline {
+.breakline-long {
+  border: solid #AA4A44;
+  border-width: 1px;
+  border-top: solid;
+  border-width: thin;
+  width: auto;
+  margin: 25px auto 25px auto;
+}
+.breakline-short {
   border: solid #AA4A44;
   border-width: 1px;
   border-top: solid;
@@ -554,4 +577,12 @@ border-color: #BFC0C5;
 }
 #breakline-white{
 border-color: #FFFFFF;
+}
+
+#long{
+  border-top: solid;
+  border-width: thin;
+  width: 50px;
+  margin: 25px auto 25px auto;
+
 }
