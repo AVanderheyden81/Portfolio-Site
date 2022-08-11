@@ -551,6 +551,32 @@ nav>ul>li>a:active {
 
 /* ******************** DISPLAY ******************** */
 /* *************** STATES *************** */
+.grid-item {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: inline-block;
+  text-align: center;
+}
+.grid-container {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: block;
+  text-align: center;
+}
+
+.column {
+  border: solid #AA4A44;
+  border-width: 1px;
+
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column .grid-item {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
 .button:hover {
   opacity: 0.8;
 }
