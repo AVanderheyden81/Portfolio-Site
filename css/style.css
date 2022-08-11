@@ -328,6 +328,19 @@ p {
   float: right;
 }
 
+/* ********************** BOMBORA.HTML ********************** */
+
+.bombora-intro{
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 100px 100px 100px 100px;
+
+}
+
+
 /* ******************** ELEMENTS ******************** */
 .Arin-logo-combined {
   border: solid #AA4A44;
