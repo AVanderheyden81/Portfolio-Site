@@ -383,11 +383,10 @@ p {
 .breakline {
   border: solid #AA4A44;
   border-width: 1px;
-  border-top: solid #1f1f1f;
+  border-top: solid;
   border-width: thin;
   width: 50px;
   margin: 25px auto 25px auto;
-  border-color: #46A0F8;
 }
 
 .contact {
@@ -542,4 +541,17 @@ nav>ul>li>a:active {
   border-width: 1px;
   border-radius: 50%;
   margin: 30px 30px 15px 30px;
+}
+
+#breakline-black{
+border-color: #1F1F1F;
+}
+#breakline-blue{
+border-color: #46A0F8;
+}
+#breakline-grey{
+border-color: #BFC0C5;
+}
+#breakline-white{
+border-color: #FFFFFF;
 }
