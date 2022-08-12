@@ -191,7 +191,84 @@ p {
   color: #FFFFFF;
 }
 
-/* ********************** CONTAINERS ********************** */
+/* ********************** ELEMENTS ********************** */
+.button {
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: #46A0F8;
+  font-family: 'Avenir-Light';
+  font-weight: bolder;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 100px;
+}
+
+.breakline-long {
+  border: solid #AA4A44;
+  border-width: 1px;
+  border-top: solid;
+  border-width: thin;
+  width: auto;
+  margin: 25px auto 25px auto;
+}
+
+.breakline-short {
+  border: solid #AA4A44;
+  border-width: 1px;
+  border-top: solid;
+  border-width: thin;
+  width: 50px;
+  margin: 25px auto 25px auto;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+/* ******************** LINKS ******************** */
+a {
+  color: #46A0F8;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #FFFFFF;
+}
+
+a:active {
+  color: #ffffff;
+}
+
+nav>ul {
+  border: solid #AA4A44;
+  border-width: 1px;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav>ul>li {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: inline-block;
+}
+
+nav>ul>li>a {
+  border: solid #AA4A44;
+  border-width: 1px;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav>ul>li>a:active {
+  padding: 0 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 /* ********************** MAIN ********************** */
 .header-container {
   border: solid #AA4A44;
@@ -200,6 +277,32 @@ p {
   margin: 5px 5px;
   display: flex;
   align-items: center;
+}
+
+.Arin-logo-combined {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: inline-block;
+  padding: 0px 0px 0px 0px;
+  margin: 5px 5px 5px 5px;
+  align-items: center;
+  /*
+  border: solid #AA4A44;
+  border-width: 1px;
+  */
+}
+
+.Arin-logos {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: inline-block;
+  float: left;
+  padding: 5px 5px 5px 5px;
+  margin: 0px 0px 0px 0px;
+}
+
+.Arin_logo_only_blue_noglo {
+  filter: drop-shadow(0px 4px 2px rgba(255, 255, 255, 1));
 }
 
 .footer-container {
@@ -221,6 +324,40 @@ p {
   display: inline-block;
 }
 
+.contact {
+  border: solid #AA4A44;
+  border-width: 1px;
+  color: #BFC0C5;
+  font-family: Avenir-Roman;
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.contact-elements-all {
+  border: solid #AA4A44;
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-elements-combined {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.contact-elements {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: inline-block;
+  padding: 10px;
+  color: #BFC0C5;
+}
+
 .copyright-container {
   border: solid #AA4A44;
   border-width: 1px;
@@ -229,6 +366,13 @@ p {
   align-items: center;
   justify-content: center;
   margin: auto;
+}
+
+.copyright-element {
+  font-family: 'Avenir-Light', sans-serif;
+  font-size: 10px;
+  font-weight: lighter;
+  color: #BFC0C5
 }
 
 /* ********************** INDEX.HTML ********************** */
@@ -251,6 +395,18 @@ p {
   box-shadow: 5px 5px 10px #1F1F1F;
 }
 
+.portrait {
+  padding: 40px;
+}
+
+.name-title {
+  border: solid #AA4A44;
+  border-width: 1px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin: 15px 0px 30px 0px;
+}
+
 .social-container {
   border: solid #AA4A44;
   border-width: 1px;
@@ -261,6 +417,14 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.social-icons {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: inline-block;
+  padding: 0px;
+  margin: 5px;
 }
 
 .welcome-container {
@@ -320,6 +484,14 @@ p {
   float: right;
 }
 
+.square {
+  height: 48px;
+  width: 10px;
+  background-color: #46A0F8;
+  margin-top: 30px;
+  float: left;
+}
+
 /* ********************** BOMBORA.HTML ********************** */
 .project-text-block {
   border: solid #AA4A44;
@@ -349,102 +521,7 @@ p {
 }
 
 /* ******************** ELEMENTS ******************** */
-.Arin-logo-combined {
-  border: solid #AA4A44;
-  border-width: 1px;
-  display: inline-block;
-  padding: 0px 0px 0px 0px;
-  margin: 5px 5px 5px 5px;
-  align-items: center;
-  /*
-  border: solid #AA4A44;
-  border-width: 1px;
-  */
-}
 
-.Arin-logos {
-  border: solid #AA4A44;
-  border-width: 1px;
-  display: inline-block;
-  float: left;
-  padding: 5px 5px 5px 5px;
-  margin: 0px 0px 0px 0px;
-}
-
-.Arin_logo_only_blue_noglo {
-  filter: drop-shadow(0px 4px 2px rgba(255, 255, 255, 1));
-}
-
-.button {
-  display: inline-block;
-  color: #FFFFFF;
-  background-color: #46A0F8;
-  font-family: 'Avenir-Light';
-  font-weight: bolder;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border-radius: 100px;
-}
-
-.breakline-long {
-  border: solid #AA4A44;
-  border-width: 1px;
-  border-top: solid;
-  border-width: thin;
-  width: auto;
-  margin: 25px auto 25px auto;
-}
-
-.breakline-short {
-  border: solid #AA4A44;
-  border-width: 1px;
-  border-top: solid;
-  border-width: thin;
-  width: 50px;
-  margin: 25px auto 25px auto;
-}
-
-.contact {
-  border: solid #AA4A44;
-  border-width: 1px;
-  color: #BFC0C5;
-  font-family: Avenir-Roman;
-  font-size: 14px;
-  display: inline-block;
-  padding: 10px;
-}
-
-.contact-elements-all {
-  border: solid #AA4A44;
-  border-width: 1px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.contact-elements-combined {
-  border: solid #AA4A44;
-  border-width: 1px;
-  display: inline-block;
-  padding: 10px;
-}
-
-.contact-elements {
-  border: solid #AA4A44;
-  border-width: 1px;
-  display: inline-block;
-  padding: 10px;
-  color: #BFC0C5;
-}
-
-.copyright-element {
-  font-family: 'Avenir-Light', sans-serif;
-  font-size: 10px;
-  font-weight: lighter;
-  color: #BFC0C5
-}
 
 .navigation {
   border: solid #AA4A44;
@@ -456,33 +533,6 @@ p {
   margin: 0px 0px;
 }
 
-.name-title {
-  border: solid #AA4A44;
-  border-width: 1px;
-  text-align: center;
-  padding: 10px 10px 10px 10px;
-  margin: 15px 0px 30px 0px;
-}
-
-.portrait {
-  padding: 40px;
-}
-
-.square {
-  height: 48px;
-  width: 10px;
-  background-color: #46A0F8;
-  margin-top: 30px;
-  float: left;
-}
-
-.social-icons {
-  border: solid #AA4A44;
-  border-width: 1px;
-  display: inline-block;
-  padding: 0px;
-  margin: 5px;
-}
 
 .grid-container {
   border: solid #AA4A44;
@@ -490,15 +540,25 @@ p {
   display: block;
 }
 
-.grid-item {
+.grid-item-left {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: block;
+  text-align: left;
+  width: auto;
+  padding: 5px;
+  margin: 20px;
+}
+.grid-item-center {
   border: solid #AA4A44;
   border-width: 1px;
   display: block;
   text-align: center;
-  width: 280px;
+  width: auto;
   padding: 5px;
   margin: 20px;
 }
+
 
 .column {
   border: solid #AA4A44;
@@ -523,65 +583,13 @@ svg {
   vertical-align: top;
 }
 
-ul {
-  display: block;
-  padding-right: auto;
-}
 
-li {
-  text-align: center;
-  justify-content: center;
-}
-
-/* ******************** LINKS ******************** */
-a {
-  color: #46A0F8;
-  text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  color: #FFFFFF;
-}
-
-a:active {
-  color: #ffffff;
-}
-
-nav>ul {
-  border: solid #AA4A44;
-  border-width: 1px;
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-}
-
-nav>ul>li {
-  border: solid #AA4A44;
-  border-width: 1px;
-  display: inline-block;
-}
-
-nav>ul>li>a {
-  border: solid #AA4A44;
-  border-width: 1px;
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-nav>ul>li>a:active {
-  padding: 0 15px;
-  text-transform: uppercase;
-  color: #ffffff;
-}
 
 /* ******************** TEXT ******************** */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* ******************** DISPLAY ******************** */
 /* *************** STATES *************** */
 .button:hover {
   opacity: 0.8;
@@ -590,6 +598,8 @@ nav>ul>li>a:active {
 #state-hover:hover {
   opacity: 0.5;
 }
+
+/* ******************** IDs ******************** */
 
 #portrait {
   border: solid #AA4A44;
