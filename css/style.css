@@ -104,7 +104,7 @@ h4 {
 
 h5 {
   font-family: 'Avenir-Light', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: normal;
   color: #1F1F1F;
   margin-top: 5px;
@@ -120,6 +120,14 @@ h6 {
   margin-bottom: 5px;
 }
 
+h6{
+  font-family: 'Avenir-Light', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1F1F1F;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 /* ******************** PARAGRAPHS ********************  */
 p {
   line-height: 1.5;
@@ -294,13 +302,13 @@ p {
   box-shadow: 5px 5px 10px #1F1F1F;
 }
 
-.projects-bombora-text {
+.projects-text {
   float: left;
   text-align: left;
   padding: 5px;
   margin: 20px 20px 20px 25px;
   width: 360px;
-  display: block;
+  display: inline-block;
 }
 
 .projects-bombora-image {
@@ -309,15 +317,6 @@ p {
   padding: 10px;
   margin: 20px 10px 0px 0px;
   float: right;
-}
-
-.projects-vocwebulary-text {
-  float: left;
-  text-align: left;
-  padding: 5px;
-  margin: 20px 20px 20px 25px;
-  width: 360px;
-  display: block;
 }
 
 .projects-vocwebulary-image {
@@ -329,24 +328,7 @@ p {
 }
 
 /* ********************** BOMBORA.HTML ********************** */
-
-.project-text-block{
-  border: solid #AA4A44;
-  border-width: 1px;
-  display: block;
-  text-align: center;
-  padding: 10px;
-  margin: 100px 100px 100px 100px;
-}
-.project-graphical-block{
-  border: solid #AA4A44;
-  border-width: 1px;
-  display: block;
-  text-align: center;
-  padding: 10px;
-  margin: 100px 100px 100px 100px;
-}
-.project-text-graphical-block{
+.project-text-block {
   border: solid #AA4A44;
   border-width: 1px;
   display: block;
@@ -355,6 +337,23 @@ p {
   margin: 100px 100px 100px 100px;
 }
 
+.project-graphical-block {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 100px 100px 100px 100px;
+}
+
+.project-text-graphical-block {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 100px 100px 100px 100px;
+}
 
 /* ******************** ELEMENTS ******************** */
 .Arin-logo-combined {
@@ -403,6 +402,7 @@ p {
   width: auto;
   margin: 25px auto 25px auto;
 }
+
 .breakline-short {
   border: solid #AA4A44;
   border-width: 1px;
@@ -491,6 +491,36 @@ p {
   margin: 5px;
 }
 
+.grid-container {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: block;
+}
+
+.grid-item {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: block;
+  text-align: center;
+  width: 280px;
+  padding: 5px;
+  margin: 20px;
+}
+
+.column {
+  border: solid #AA4A44;
+  border-width: 1px;
+  flex: 50%;
+  padding: 5px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.column .grid-item {
+  vertical-align: middle;
+}
+
+
 img:not(#portrait) {
   width: 100%;
   height: auto;
@@ -499,6 +529,16 @@ img:not(#portrait) {
 
 svg {
   vertical-align: top;
+}
+
+ul {
+  display: block;
+  padding-right: auto;
+}
+
+li {
+  text-align: center;
+  justify-content: center;
 }
 
 /* ******************** LINKS ******************** */
@@ -551,31 +591,6 @@ nav>ul>li>a:active {
 
 /* ******************** DISPLAY ******************** */
 /* *************** STATES *************** */
-.grid-item {
-  border: solid #AA4A44;
-  border-width: 1px;
-  display: inline-block;
-  text-align: center;
-}
-.grid-container {
-  border: solid #AA4A44;
-  border-width: 1px;
-  display: block;
-  text-align: center;
-}
-
-.column {
-  border: solid #AA4A44;
-  border-width: 1px;
-
-  flex: 50%;
-  padding: 0 4px;
-}
-
-.column .grid-item {
-  margin-top: 8px;
-  vertical-align: middle;
-}
 
 .button:hover {
   opacity: 0.8;
@@ -592,23 +607,25 @@ nav>ul>li>a:active {
   margin: 30px 30px 15px 30px;
 }
 
-#breakline-black{
-border-color: #1F1F1F;
-}
-#breakline-blue{
-border-color: #46A0F8;
-}
-#breakline-grey{
-border-color: #BFC0C5;
-}
-#breakline-white{
-border-color: #FFFFFF;
+#breakline-black {
+  border-color: #1F1F1F;
 }
 
-#long{
+#breakline-blue {
+  border-color: #46A0F8;
+}
+
+#breakline-grey {
+  border-color: #BFC0C5;
+}
+
+#breakline-white {
+  border-color: #FFFFFF;
+}
+
+#long {
   border-top: solid;
   border-width: thin;
   width: 50px;
   margin: 25px auto 25px auto;
-
 }
