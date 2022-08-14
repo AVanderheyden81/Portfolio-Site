@@ -234,8 +234,6 @@ ul {
 a {
   color: #46A0F8;
   text-decoration: none;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 a:hover,
@@ -252,7 +250,7 @@ a:active {
   border-width: 1px;
   display: inline-block;
   position: absolute;
-  right: 25px;
+  right: 20px;
   padding: 0px 0px;
   margin: 0px 0px 0px 0px;
 }
@@ -262,18 +260,20 @@ nav>ul {
   border: solid #AA4A44;
   border-width: 1px;
   list-style-type: none;
-  padding: 0px;
-  margin: 0px;
+  padding: inherit;
+  margin: inherit;
 }
 
 nav>ul>li {
   border: solid #AA4A44;
   border-width: 1px;
   display: inline-block;
-  vertical-align: center;
+  padding: inherit;
+  margin: inherit;
 }
 
 nav>ul>li>a {
+  display: inline-block;
   border: solid #AA4A44;
   border-width: 1px;
   padding: 0px 15px;
