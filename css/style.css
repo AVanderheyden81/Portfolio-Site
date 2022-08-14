@@ -43,6 +43,8 @@ Sizes - 14px, 18px, 25px
 }
 
 header {
+  border: solid #AA4A44;
+  border-width: 1px;
   background-color: #1F1F1F;
   padding: 5px 5px 5px 5px;
   margin: 0px;
@@ -57,6 +59,8 @@ body {
 }
 
 footer {
+  border: solid #AA4A44;
+  border-width: 1px;
   background-color: #1f1f1f;
   padding: 5px 5px 5px 5px;
   bottom: 0;
@@ -116,7 +120,10 @@ h6 {
   margin-bottom: 5px;
 }
 
+
 /* ******************** PARAGRAPHS ********************  */
+
+
 p {
   line-height: 1.5;
   margin-top: 5px;
@@ -200,6 +207,8 @@ p {
 }
 
 .breakline-long {
+  border: solid #AA4A44;
+  border-width: 1px;
   border-top: solid;
   border-width: thin;
   width: auto;
@@ -207,6 +216,8 @@ p {
 }
 
 .breakline-short {
+  border: solid #AA4A44;
+  border-width: 1px;
   border-top: solid;
   border-width: thin;
   width: 50px;
@@ -217,10 +228,14 @@ ul {
   padding-inline-start: 20px;
 }
 
+
+
 /* ******************** LINKS ******************** */
 a {
   color: #46A0F8;
   text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 a:hover,
@@ -232,20 +247,37 @@ a:active {
   color: #ffffff;
 }
 
+.navigation {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: inline-block;
+  position: absolute;
+  right: 25px;
+  padding: 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+
 nav>ul {
+  border: solid #AA4A44;
+  border-width: 1px;
   list-style-type: none;
   padding: 0px;
   margin: 0px;
 }
 
 nav>ul>li {
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
+  vertical-align: center;
 }
 
 nav>ul>li>a {
-  padding: 0 15px;
+  border: solid #AA4A44;
+  border-width: 1px;
+  padding: 0px 15px;
   text-transform: uppercase;
-  font-size: 14px;
 }
 
 nav>ul>li>a:active {
@@ -254,8 +286,12 @@ nav>ul>li>a:active {
   color: #ffffff;
 }
 
+
+
 /* ********************** MAIN ********************** */
 .header-container {
+  border: solid #AA4A44;
+  border-width: 1px;
   padding: 5px 5px;
   margin: 5px 5px;
   display: flex;
@@ -263,17 +299,21 @@ nav>ul>li>a:active {
 }
 
 .Arin-logo-combined {
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
   padding: 0px 0px 0px 0px;
   margin: 5px 5px 5px 5px;
   align-items: center;
   /*
-
-
+  border: solid #AA4A44;
+  border-width: 1px;
   */
 }
 
 .Arin-logos {
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
   float: left;
   padding: 5px 5px 5px 5px;
@@ -284,15 +324,10 @@ nav>ul>li>a:active {
   filter: drop-shadow(0px 4px 2px rgba(255, 255, 255, 1));
 }
 
-.navigation {
-  display: inline-block;
-  position: absolute;
-  right: 25px;
-  padding: 0px 0px;
-  margin: 0px 0px;
-}
 
 .footer-container {
+  border: solid #AA4A44;
+  border-width: 1px;
   padding: 0px 0px;
   display: flex;
   align-items: center;
@@ -303,11 +338,15 @@ nav>ul>li>a:active {
 }
 
 .contact-container {
+  border: solid #AA4A44;
+  border-width: 1px;
   padding: 10px;
   display: inline-block;
 }
 
 .contact {
+  border: solid #AA4A44;
+  border-width: 1px;
   color: #BFC0C5;
   font-family: Avenir-Roman;
   font-size: 14px;
@@ -316,6 +355,8 @@ nav>ul>li>a:active {
 }
 
 .contact-elements-all {
+  border: solid #AA4A44;
+  border-width: 1px;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -323,17 +364,23 @@ nav>ul>li>a:active {
 }
 
 .contact-elements-combined {
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
   padding: 10px;
 }
 
 .contact-elements {
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
   padding: 10px;
   color: #BFC0C5;
 }
 
 .copyright-container {
+  border: solid #AA4A44;
+  border-width: 1px;
   padding: 0px 0px;
   display: flex;
   align-items: center;
@@ -350,10 +397,14 @@ nav>ul>li>a:active {
 
 /* ********************** INDEX.HTML ********************** */
 .hero-container {
+  border: solid #AA4A44;
+  border-width: 1px;
   padding: 150px;
 }
 
 .profile-container {
+  border: solid #AA4A44;
+  border-width: 1px;
   background-color: #FFFFFF;
   display: inline-block;
   padding: 5px;
@@ -369,12 +420,16 @@ nav>ul>li>a:active {
 }
 
 .name-title {
+  border: solid #AA4A44;
+  border-width: 1px;
   text-align: center;
   padding: 10px 10px 10px 10px;
   margin: 15px 0px 30px 0px;
 }
 
 .social-container {
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
   margin-top: 35px;
   margin-bottom: 5px;
@@ -385,12 +440,16 @@ nav>ul>li>a:active {
 }
 
 .social-icons {
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
   padding: 0px;
   margin: 5px;
 }
 
 .welcome-container {
+  border: solid #AA4A44;
+  border-width: 1px;
   display: inline-block;
   width: 600px;
   height: 530px;
@@ -401,6 +460,8 @@ nav>ul>li>a:active {
 
 /* ********************** PROJECTS.HTML ********************** */
 .projects-intro-container {
+  border: solid #AA4A44;
+  border-width: 1px;
   display: block;
   text-align: center;
   padding: 10px;
@@ -408,6 +469,8 @@ nav>ul>li>a:active {
 }
 
 .projects-container {
+  border: solid #AA4A44;
+  border-width: 1px;
   background-color: #FFFFFF;
   padding: 20px 20px 20px 0px;
   margin: 100PX auto;
@@ -451,6 +514,8 @@ nav>ul>li>a:active {
 
 /* ********************** BOMBORA.HTML ********************** */
 .project-text-block {
+  border: solid #AA4A44;
+  border-width: 1px;
   display: block;
   text-align: center;
   padding: 10px;
@@ -458,6 +523,8 @@ nav>ul>li>a:active {
 }
 
 .project-graphical-block {
+  border: solid #AA4A44;
+  border-width: 1px;
   display: block;
   text-align: center;
   padding: 10px;
@@ -465,6 +532,8 @@ nav>ul>li>a:active {
 }
 
 .project-text-graphical-block {
+  border: solid #AA4A44;
+  border-width: 1px;
   display: block;
   text-align: center;
   padding: 10px;
@@ -472,10 +541,14 @@ nav>ul>li>a:active {
 }
 
 .grid-container {
+  border: solid #AA4A44;
+  border-width: 1px;
   display: block;
 }
 
 .grid-item-left {
+  border: solid #AA4A44;
+  border-width: 1px;
   display: block;
   text-align: left;
   justify-content: left;
@@ -483,8 +556,9 @@ nav>ul>li>a:active {
   padding: 5px;
   margin: 20px;
 }
-
 .grid-item-center {
+  border: solid #AA4A44;
+  border-width: 1px;
   display: block;
   text-align: center;
   width: auto;
@@ -493,11 +567,14 @@ nav>ul>li>a:active {
 }
 
 .column {
+  border: solid #AA4A44;
+  border-width: 1px;
   flex: 50%;
   padding: 5px;
   margin: 10px;
   display: inline-block;
 }
+
 
 img:not(#portrait) {
   width: 100%;
@@ -524,7 +601,10 @@ svg {
 }
 
 /* ******************** IDs ******************** */
+
 #portrait {
+  border: solid #AA4A44;
+  border-width: 1px;
   border-radius: 50%;
   margin: 30px 30px 15px 30px;
 }
