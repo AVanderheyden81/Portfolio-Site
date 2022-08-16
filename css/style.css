@@ -249,7 +249,6 @@ a:active {
   border: solid #AA4A44;
   border-width: 1px;
   display: inline-block;
-  position: absolute;
   right: 20px;
   padding: 0px 0px;
   margin: 0px 0px 0px 0px;
@@ -297,6 +296,7 @@ nav>ul>li>a:active {
   margin: 5px 5px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .Arin-logos-combined {
@@ -336,7 +336,6 @@ nav>ul>li>a:active {
   padding: 0px 0px;
   display: flex;
   align-items: center;
-  justify-content: center;
   justify-content: space-between;
   max-width: 800px;
   margin: auto;
@@ -702,7 +701,7 @@ Small devices (between 470px & 640px)
 /* ==============================
 Smaller devices (Up to 470px)
 ================================= */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 470px) {
   .Arin-logo-text {
     visibility: hidden;
   }
