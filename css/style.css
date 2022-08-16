@@ -482,7 +482,7 @@ nav>ul>li>a:active {
   border: solid #AA4A44;
   border-width: 1px;
   background-color: #FFFFFF;
-  padding: 20px 20px 20px 0px;
+  padding: 20px 0px 20px 0px;
   margin: 100PX auto;
   width: 750px;
   height: 400px;
@@ -490,27 +490,24 @@ nav>ul>li>a:active {
 }
 
 .projects-text {
-  float: left;
   text-align: left;
   padding: 5px;
-  margin: 20px 20px 20px 25px;
-  width: 360px;
+  margin: 20px 0px 20px 20px;
+  max-width: 360px;
   display: inline-block;
 }
 
 .projects-bombora-image {
   display: inline-block;
-  margin: auto;
   padding: 10px;
-  margin: 20px 10px 0px 0px;
+  margin: 20px 20px 20px 20px;
   float: right;
 }
 
 .projects-vocwebulary-image {
   display: inline-block;
-  margin: auto;
   padding: 10px;
-  margin: 20px 10px 0px 0px;
+  margin: 20px 20px 20px 20px;
   float: right;
 }
 
@@ -642,6 +639,7 @@ svg {
   margin: 25px auto 25px auto;
 }
 
+#
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
@@ -661,6 +659,23 @@ Medium devices (between 640px & 1024px)
   nav>ul>li {
     display: block;
   }
+
+  .projects-container {
+    width: 480px;
+    height: 700px;
+  }
+
+  .projects-bombora-image {
+    float: none;
+  }
+
+  .projects-vocwebulary-image {
+    float: none;
+  }
+
+
+
+
 }
 
 /* ==============================
