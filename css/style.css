@@ -406,13 +406,11 @@ nav>ul>li>a:active {
   border-width: 1px;
   align-items: center;
   margin: 100px auto;
-  width: 1000px;
+  width: 1020px;
   height: 540px;
 }
 
 .profile-container {
-  border: solid #AA4A44;
-  border-width: 1px;
   background-color: #FFFFFF;
   display: inline-block;
   padding: 5px;
@@ -457,14 +455,12 @@ nav>ul>li>a:active {
 }
 
 .welcome-container {
-  border: solid #AA4A44;
-  border-width: 1px;
   display: inline-block;
   width: 600px;
   height: 530px;
   vertical-align: middle;
   padding: 5px;
-  margin-left: auto;
+  margin: auto;
   float: right;
 }
 
@@ -660,6 +656,24 @@ Medium devices (between 640px & 1024px)
     display: block;
   }
 
+  .hero-container {
+    width: 500px;
+    height: 1080px;
+  }
+
+  .profile-container {
+    float: none;
+    display: block;
+    margin-bottom: 25px;
+
+  }
+
+  .welcome-container {
+    text-align: center;
+    width: auto;
+    margin-top: 25px;
+  }
+
   .projects-container {
     width: 480px;
     height: 700px;
@@ -672,10 +686,6 @@ Medium devices (between 640px & 1024px)
   .projects-vocwebulary-image {
     float: none;
   }
-
-
-
-
 }
 
 /* ==============================
