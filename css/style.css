@@ -276,8 +276,9 @@ nav>ul>li>a {
   display: inline-block;
   border: solid #AA4A44;
   border-width: 1px;
-  padding: 0px 15px;
+  padding: 5px 15px;
   text-transform: uppercase;
+  font-size: 14px;
 }
 
 nav>ul>li>a:active {
@@ -663,10 +664,28 @@ Medium devices (between 640px & 1024px)
 }
 
 /* ==============================
-Small devices (Up to 640px)
+Small devices (between 470px & 640px)
 ================================= */
 @media only screen and (max-width: 640px) {
-  .Arin-logo-text{
+  .Arin-logo {
+    visibility: hidden;
+    display: block;
+    position: absolute;
+  }
+}
+
+/* ==============================
+Smaller devices (Up to 470px)
+================================= */
+@media only screen and (max-width: 640px) {
+  .Arin-logo-text {
     visibility: hidden;
   }
+
+  .Arin-logo {
+    visibility: visible;
+    display: block;
+    position: absolute;
+  }
+
 }
