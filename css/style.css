@@ -298,20 +298,24 @@ nav>ul>li>a:active {
   align-items: center;
 }
 
-.Arin-logo-combined {
+.Arin-logos-combined {
   border: solid #AA4A44;
   border-width: 1px;
   display: inline-block;
   padding: 0px 0px 0px 0px;
   margin: 5px 5px 5px 5px;
   align-items: center;
-  /*
-  border: solid #AA4A44;
-  border-width: 1px;
-  */
 }
 
-.Arin-logos {
+.Arin-logo {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: inline-block;
+  float: left;
+  padding: 5px 5px 5px 5px;
+  margin: 0px 0px 0px 0px;
+}
+.Arin-logo-text {
   border: solid #AA4A44;
   border-width: 1px;
   display: inline-block;
@@ -399,7 +403,10 @@ nav>ul>li>a:active {
 .hero-container {
   border: solid #AA4A44;
   border-width: 1px;
-  padding: 150px;
+  align-items: center;
+  margin: 100px auto;
+  width: 1000px;
+  height: 540px;
 }
 
 .profile-container {
@@ -411,8 +418,9 @@ nav>ul>li>a:active {
   width: 375px;
   height: 530px;
   vertical-align: middle;
-  margin-right: 30px;
+  margin: auto;
   box-shadow: 5px 5px 10px #1F1F1F;
+  float: left;
 }
 
 .portrait {
@@ -455,7 +463,8 @@ nav>ul>li>a:active {
   height: 530px;
   vertical-align: middle;
   padding: 5px;
-  margin-left: 30px;
+  margin-left: auto;
+  float: right;
 }
 
 /* ********************** PROJECTS.HTML ********************** */
@@ -630,4 +639,34 @@ svg {
   border-width: thin;
   width: 50px;
   margin: 25px auto 25px auto;
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+
+/* ==============================
+Large devices (between 1024px & 1440px)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+
+/* ==============================
+Medium devices (between 640px & 1024px)
+================================= */
+@media only screen and (max-width: 1024px) {
+  nav>ul>li {
+    display: block;
+  }
+}
+
+/* ==============================
+Small devices (Up to 640px)
+================================= */
+@media only screen and (max-width: 640px) {
+  .Arin-logo-text{
+    visibility: hidden;
+  }
 }
