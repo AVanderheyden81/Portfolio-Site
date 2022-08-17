@@ -503,6 +503,11 @@ nav>ul>li>a:active {
   padding: 10px;
   margin: 20px 20px 20px 20px;
   float: right;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.projects-bombora-image:hover {
+transform: scale(1.05);
 }
 
 .projects-vocwebulary-image {
@@ -510,7 +515,14 @@ nav>ul>li>a:active {
   padding: 10px;
   margin: 20px 20px 20px 20px;
   float: right;
+  transition-property: transform;
+  transition-duration: 0.5s;
 }
+
+.projects-vocwebulary-image:hover {
+transform: scale(1.05);
+}
+
 
 .square {
   height: 48px;
