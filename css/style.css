@@ -232,11 +232,17 @@ ul {
   margin: 25px auto 25px auto;
 }
 
-.breakline-short {
+.breakline-short-left {
   border-top: solid;
   border-width: thin;
   width: 50px;
   margin: 10px auto 10px 5px;
+}
+.breakline-short-center {
+  border-top: solid;
+  border-width: thin;
+  width: 50px;
+  margin: 10px auto;
 }
 
 /* ******************** LINKS ******************** */
