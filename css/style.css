@@ -73,8 +73,8 @@ h1 {
   font-size: 56px;
   font-weight: 600;
   color: #1F1F1F;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -82,8 +82,8 @@ h2 {
   font-size: 35px;
   font-weight: 600;
   color: #1F1F1F;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h3 {
@@ -100,6 +100,8 @@ h4 {
   font-size: 25px;
   font-weight: 600;
   color: #1F1F1F;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h5 {
@@ -107,8 +109,8 @@ h5 {
   font-size: 20px;
   font-weight: normal;
   color: #1F1F1F;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h6 {
@@ -116,8 +118,8 @@ h6 {
   font-size: 20px;
   font-weight: bold;
   color: #46A0F8;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 
@@ -193,7 +195,14 @@ p {
   color: #FFFFFF;
 }
 
-/* ********************** ELEMENTS ********************** */
+
+/* ********************** LISTS ********************** */
+
+ul {
+  padding-inline-start: 20px;
+}
+
+/* ********************** BUTTONS ********************** */
 .button {
   display: inline-block;
   color: #FFFFFF;
@@ -206,6 +215,15 @@ p {
   border-radius: 100px;
 }
 
+.button:hover {
+  opacity: 0.8;
+}
+
+#state-hover:hover {
+  opacity: 0.5;
+}
+
+
 .breakline-long {
   border: solid #AA4A44;
   border-width: 1px;
@@ -216,17 +234,12 @@ p {
 }
 
 .breakline-short {
-  border: solid #AA4A44;
-  border-width: 1px;
   border-top: solid;
   border-width: thin;
   width: 50px;
-  margin: 25px auto 25px auto;
+  margin: 10px auto 10px 5px;
 }
 
-ul {
-  padding-inline-start: 20px;
-}
 
 
 
@@ -515,13 +528,21 @@ nav>ul>li>a:active {
 }
 
 /* ********************** BOMBORA.HTML ********************** */
+.project-heading-block {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin:50px 100px 50px 100px;
+}
 .project-text-block {
   border: solid #AA4A44;
   border-width: 1px;
   display: block;
   text-align: center;
   padding: 10px;
-  margin: 100px 100px 100px 100px;
+  margin:50px 100px 50px 100px;
 }
 
 .project-graphical-block {
@@ -530,7 +551,7 @@ nav>ul>li>a:active {
   display: block;
   text-align: center;
   padding: 10px;
-  margin: 100px 100px 100px 100px;
+  margin: 50px 100px 500px 100px;
 }
 
 .project-text-graphical-block {
@@ -539,13 +560,28 @@ nav>ul>li>a:active {
   display: block;
   text-align: center;
   padding: 10px;
-  margin: 100px 100px 100px 100px;
+  margin: 50px 100px 50px 100px;
 }
 
 .grid-container {
   border: solid #AA4A44;
   border-width: 1px;
-  display: block;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-container-2x2 {
+  border: solid #AA4A44;
+  border-width: 1px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-item {
+  border: solid #AA4A44;
+  border-width: 1px;
+  text-align: center;
+  padding: 5px;
+  margin: 20px;
 }
 
 .grid-item-left {
@@ -553,10 +589,14 @@ nav>ul>li>a:active {
   border-width: 1px;
   display: block;
   text-align: left;
+  align-items: left;
   justify-content: left;
   width: auto;
-  padding: 5px;
+  padding: 10px;
   margin: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 5px 5px 10px #1F1F1F;
+
 }
 .grid-item-center {
   border: solid #AA4A44;
@@ -593,14 +633,6 @@ svg {
   text-transform: uppercase;
 }
 
-/* *************** STATES *************** */
-.button:hover {
-  opacity: 0.8;
-}
-
-#state-hover:hover {
-  opacity: 0.5;
-}
 
 /* ******************** IDs ******************** */
 
@@ -632,6 +664,10 @@ svg {
   border-width: thin;
   width: 50px;
   margin: 25px auto 25px auto;
+}
+
+#background-white{
+  background-color: #FFFFFF;
 }
 
 #
