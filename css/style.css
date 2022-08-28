@@ -715,26 +715,39 @@ svg {
   background-color: #FFFFFF;
 }
 
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (max-width: >1440px) {
-}
-
-/* ==============================
-Large devices (between 1024px & 1440px)
-================================= */
-@media only screen and (max-width: 1440px) {
-  .navtoggle li:first-child {
+.navtoggle li:last-child {
   display: none;
 }
 
+/* ==============================
+if screen size is 1920px OR LESS
+================================= */
+@media only screen and (max-width: 1920px) {
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+
 }
 
 /* ==============================
-Medium devices (between 640px & 1024px)
-================================= */
+  if screen size is 1440px or less
+  ================================= */
+@media only screen and (max-width: 1440px) {
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+}
+
+/* ==============================
+  if screen size is 1024px or less
+  ================================= */
 @media only screen and (max-width: 1024px) {
+  .navtoggle li:last-child {
+    display: none;
+  }
   nav>ul>li {
     display: block;
   }
@@ -771,9 +784,12 @@ Medium devices (between 640px & 1024px)
 }
 
 /* ==============================
-Small devices (between 470px & 640px)
+if screen size is 640px or less
 ================================= */
 @media only screen and (max-width: 640px) {
+  .navtoggle li:last-child {
+    display: none;
+  }
   .Arin-logo {
     visibility: hidden;
     display: block;
@@ -781,27 +797,23 @@ Small devices (between 470px & 640px)
   }
 }
 
+
 /* ==============================
-Smaller devices (Up to 470px)
+if screen size is 470px or less
 ================================= */
 @media only screen and (max-width: 470px) {
+  .navtoggle li:last-child {
+    display: inline-block;
+  }
+  .navtoggle li:not(:last-child) {
+    display: none;
+  }
   .Arin-logo-text {
     visibility: hidden;
   }
-
   .Arin-logo {
     visibility: visible;
     display: block;
     position: absolute;
   }
-
-  .navtoggle li:not(:last-child) {
-  display: none;
-}
-  /*
-
-  .navtoggle li:not(:nth-last-child(5)) {
-    display: none;
-  }
-  */
 }
