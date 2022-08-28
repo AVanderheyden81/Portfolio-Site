@@ -212,16 +212,20 @@ ul {
   border-radius: 100px;
   transition-property: box-shadow;
   transition-duration: 0.5s;
-  animation-duration:  650ms;
+  animation-duration: 650ms;
   animation-name: button-drop;
   animation-direction: normal;
   animation-timing-function: linear;
-
 }
 
 @keyframes button-drop {
-  from {transform: translate(0,-150px);}
-  to {transform: translate(0px,0px);}
+  from {
+    transform: translate(0, -150px);
+  }
+
+  to {
+    transform: translate(0px, 0px);
+  }
 }
 
 .button:hover {
@@ -711,17 +715,21 @@ svg {
   background-color: #FFFFFF;
 }
 
-#
-
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {}
+@media only screen and (max-width: >1440px) {
+}
 
 /* ==============================
 Large devices (between 1024px & 1440px)
 ================================= */
-@media only screen and (min-width: 1440px) {}
+@media only screen and (max-width: 1440px) {
+  .navtoggle li:first-child {
+  display: none;
+}
+
+}
 
 /* ==============================
 Medium devices (between 640px & 1024px)
@@ -786,4 +794,14 @@ Smaller devices (Up to 470px)
     display: block;
     position: absolute;
   }
+
+  .navtoggle li:not(:last-child) {
+  display: none;
+}
+  /*
+
+  .navtoggle li:not(:nth-last-child(5)) {
+    display: none;
+  }
+  */
 }
