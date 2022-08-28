@@ -9,10 +9,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <!-- link to css style sheet -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
-
-  <title>Contact - Arin Vanderheyden</title>
+  <title>About Me - Arin Vanderheyden</title>
   <!-- favicon -->
   <link href="img/Main/ico/favicon.ico" rel="shortcut_icon">
+  <!-- font fontawesome CDN-->
+  <script src="https://kit.fontawesome.com/e7fb66f554.js" crossorigin="anonymous">
+  </script>
 </head>
 
 <body id="" class="">
@@ -20,6 +22,7 @@
   <header>
     <!-- open header-container -->
     <div class="header-container">
+      <!-- open logos -->
       <div class="Arin-logos-combined">
         <!-- open Arin_logo_only-->
         <div class="Arin-logo">
@@ -43,18 +46,24 @@
               fill="#787878" />
           </svg>
         </div>
+        <!-- close Arin_logo_name-->
       </div>
-      <!-- close Arin_logo_name-->
-      <!-- open navigation -->
-      <nav class="navigation">
-        <ul>
-          <li><a href="Index.html">About Me</a></li>
-          <li><a href="Resume.html">Resume</a></li>
-          <li><a href="Projects.html">Projects</a></li>
-          <li><a href="Contact.html" target="_blank">Contact</a></li>
-        </ul>
-      </nav>
-      <!-- close navigation -->
+      <!-- close logos -->
+      <!-- open navigation toggle (hamburger) -->
+      <div class="navtoggle" id="myNavtoggle">
+        <!-- open navigation (menu) -->
+        <nav class="navigation">
+          <ul>
+            <li><a href="Index.html">About Me</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Contact.html" target="_blank">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
+          </ul>
+        </nav>
+        <!-- close navigation (menu)-->
+      </div>
+      <!-- close navigation toggle (hamburger) -->
     </div>
     <!-- close header-container -->
   </header>
