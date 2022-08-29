@@ -51,6 +51,8 @@ header {
 }
 
 body {
+  /*border: solid #AA4A44;*/
+  /*border-width: 1px;*/
   background-color: #BFC0C5;
   font-family: 'Avenir-Light', sans-serif;
   font-size: 18px;
@@ -278,7 +280,6 @@ a:active {
   /*border: solid #AA4A44;*/
   /*border-width: 1px;*/
   display: inline-block;
-  right: 20px;
   padding: 0px 0px;
   margin: 0px 0px 0px 0px;
 }
@@ -313,6 +314,27 @@ nav>ul>li>a:active {
   text-transform: uppercase;
   color: #ffffff;
 }
+
+
+/* ==============================
+Default base code for hamburger display
+================================= */
+.navtoggle li:last-child {
+  display: none;
+}
+.navtoggle li .icon {
+  font-size: 30px;
+}
+.navtoggle.responsive li:last-child  {
+  border: solid #;
+  border-width: 1px;
+  padding: 0px 23px;
+}
+
+
+
+
+
 
 /* ********************** MAIN ********************** */
 .header-container {
@@ -640,8 +662,6 @@ nav>ul>li>a:active {
 }
 
 .grid-item-center {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   display: block;
   text-align: center;
   width: auto;
@@ -715,9 +735,6 @@ svg {
   background-color: #FFFFFF;
 }
 
-.navtoggle li:last-child {
-  display: none;
-}
 
 /* ==============================
 if screen size is 1920px OR LESS
@@ -767,6 +784,7 @@ if screen size is 1920px OR LESS
     text-align: center;
     width: auto;
     margin-top: 25px;
+    display: block;
   }
 
   .projects-container {
@@ -797,7 +815,6 @@ if screen size is 640px or less
   }
 }
 
-
 /* ==============================
 if screen size is 470px or less
 ================================= */
@@ -808,6 +825,20 @@ if screen size is 470px or less
   .navtoggle li:not(:last-child) {
     display: none;
   }
+  /* =======================================================
+  Code for hamburger display when RESPONSIVE task is toggled which only occurs on the smallest screen!!!
+  ========================================================== */
+  .navtoggle.responsive nav {
+    display: block;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+    padding: 0px 0;
+    border-top: 1px solid #ffffff;
+  }
+
   .Arin-logo-text {
     visibility: hidden;
   }
