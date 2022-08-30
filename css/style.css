@@ -43,7 +43,6 @@ Sizes - 14px, 18px, 25px
 }
 
 header {
-  border: solid blue;
   border-width: 1px;
   background-color: #1F1F1F;
   padding: 5px 5px 5px 5px;
@@ -51,8 +50,6 @@ header {
 }
 
 body {
-  border: solid red;
-  border-width: 1px;
   background-color: #BFC0C5;
   font-family: 'Avenir-Light', sans-serif;
   font-size: 18px;
@@ -315,19 +312,18 @@ nav>ul>li>a:active {
   color: #ffffff;
 }
 
-
 /* ==============================
 Default base code for hamburger display
 ================================= */
 .navtoggle li:last-child {
   display: none;
 }
+
 .navtoggle li .icon {
   font-size: 30px;
 }
-.navtoggle.responsive li:last-child  {
-  border: solid #;
-  border-width: 1px;
+
+.navtoggle.responsive li:last-child {
   padding: 0px 23px;
 }
 
@@ -457,7 +453,7 @@ Default base code for hamburger display
   display: inline-block;
   padding: 5px;
   width: 375px;
-  height: 530px;
+  height: auto;
   vertical-align: middle;
   margin: auto;
   box-shadow: 5px 5px 10px #1F1F1F;
@@ -465,6 +461,8 @@ Default base code for hamburger display
 }
 
 .portrait {
+  width: auto;
+  height: auto;
   padding: 40px;
 }
 
@@ -690,8 +688,7 @@ svg {
 
 /* ******************** IDs ******************** */
 #portrait {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
+  width: 250px;
   border-radius: 50%;
   margin: 30px 30px 15px 30px;
 }
@@ -730,17 +727,13 @@ svg {
   background-color: #FFFFFF;
 }
 
-
 /* ==============================
 if screen size is 1920px OR LESS
 ================================= */
 @media only screen and (max-width: 1920px) {
-
   .navtoggle li:last-child {
     display: none;
   }
-
-
 }
 
 /* ==============================
@@ -750,7 +743,6 @@ if screen size is 1920px OR LESS
   .navtoggle li:last-child {
     display: none;
   }
-
 }
 
 /* ==============================
@@ -760,6 +752,7 @@ if screen size is 1920px OR LESS
   .navtoggle li:last-child {
     display: none;
   }
+
   nav>ul>li {
     display: block;
   }
@@ -770,7 +763,6 @@ if screen size is 1920px OR LESS
   }
 
   .profile-container {
-    width: 100%;
     float: none;
     display: block;
     margin-bottom: 25px;
@@ -804,6 +796,7 @@ if screen size is 640px or less
   .navtoggle li:last-child {
     display: none;
   }
+
   .Arin-logo {
     visibility: hidden;
     display: block;
@@ -818,26 +811,54 @@ if screen size is 470px or less
   .navtoggle li:last-child {
     display: inline-block;
   }
+
   .navtoggle li:not(:last-child) {
     display: none;
   }
+
+  .profile-container {
+    width: 100%
+    height: auto;
+  }
+
+
+  #portrait {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+
+
   /* =======================================================
   Code for hamburger display when RESPONSIVE task is toggled which only occurs on the smallest screen!!!
   ========================================================== */
   .navtoggle.responsive nav {
     display: block;
-    padding: 0px 0px;
+    padding: 10px 0px;
     margin: 0px 0px 0px 0px;
   }
-  .navtoggle.responsive li  {
+
+  .navtoggle.responsive li {
     display: block;
-    padding: 0px 0;
-    border-top: 1px solid #ffffff;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .navtoggle li .icon {
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    font-size: 30px;
+  }
+
+  .header-container {
+    display: block;
   }
 
   .Arin-logo-text {
     visibility: hidden;
   }
+
   .Arin-logo {
     visibility: visible;
     display: block;
