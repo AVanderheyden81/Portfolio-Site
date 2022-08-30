@@ -11,6 +11,12 @@ function menuToggle() {
   }
 }
 
+$(document).ready(function(){
+  $(".hamburger").click(function(){
+    $(this).toggleClass("is-active");
+  });
+});
+
 //apply a function for the onclick attribute which has been assigned a value of "menuToggle". Then assign a variable to the hamburger menu object telling it to search the document using the method which returns the value by looking for a matching id in the HTMl in this case "myNavtoggle" and assigns that value to X.
 
 // X is now equal myNavtoggle
