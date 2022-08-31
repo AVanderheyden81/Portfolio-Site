@@ -540,7 +540,7 @@ Default base code for hamburger display
 .projects-text {
   text-align: left;
   padding: 5px;
-  margin: 20px 0px 20px 20px;
+  margin: 20px 20px 20px 20px;
   width: 360px;
   display: inline-block;
 }
@@ -773,6 +773,7 @@ if screen size is 1920px OR LESS
 
 .projects-text {
   display: block;
+  width: auto;
 }
 
   .projects-container {
@@ -784,6 +785,7 @@ if screen size is 1920px OR LESS
     float: none;
     display: block;
     align-items: center;
+    margin: auto;
   }
 
   .projects-vocwebulary-image {
