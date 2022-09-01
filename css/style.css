@@ -720,6 +720,15 @@ svg {
   color: #1F1F1F;
 }
 
+.resume-text {
+  text-align: left;
+  padding: 5px;
+  margin: 20px 20px 20px 20px;
+  width: 360px;
+  display: inline-block;
+}
+
+
 
 
 /* ******************** TEXT ******************** */
