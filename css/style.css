@@ -17,7 +17,7 @@ Sizes - 14px
 
 Avenir Light
 Use - Paragraphs & headings
-Sizes - 14px, 18px, 25px
+Sizes - 12px, 14px, 18px, 25px
 
 
 */
@@ -187,6 +187,35 @@ p {
 .p3-white {
   font-family: 'Avenir-Light', sans-serif;
   font-size: 14px;
+  font-weight: lighter;
+  color: #FFFFFF;
+}
+
+
+.p4-blue {
+  font-family: 'Avenir-Light', sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #46A0F8;
+}
+
+.p4-grey {
+  font-family: 'Avenir-Light', sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #BFC0C5;
+}
+
+.p4-black {
+  font-family: 'Avenir-Light', sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #1F1F1F;
+}
+
+.p4-white {
+  font-family: 'Avenir-Light', sans-serif;
+  font-size: 12px;
   font-weight: lighter;
   color: #FFFFFF;
 }
