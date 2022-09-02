@@ -756,8 +756,18 @@ svg {
   max-width: 740px;
 }
 
+/* ******************** CONTACT ******************** */
 
-
+.contact-container {
+  text-align: left;
+  background-color: #FFFFFF;
+  padding: 20px 0px 20px 0px;
+  margin: 20px auto 50px auto;
+  width: 740px;
+  max-width: 900px;
+  height: auto;
+  box-shadow: 5px 5px 10px #1F1F1F;
+}
 
 
 /* ******************** TEXT ******************** */
