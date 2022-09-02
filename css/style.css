@@ -549,8 +549,6 @@ Default base code for hamburger display
 
 /* ********************** PROJECTS.HTML ********************** */
 .projects-intro-container {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   display: block;
   text-align: center;
   padding: 10px;
@@ -708,10 +706,12 @@ svg {
 
 /* ******************** RESUME ******************** */
 .resume-item-container {
+  text-align: left;
   background-color: #FFFFFF;
   padding: 20px 0px 20px 0px;
   margin: 20px auto 50px auto;
-  width: auto;
+  width: 740px;
+  max-width: 900px;
   height: auto;
   box-shadow: 5px 5px 10px #1F1F1F;
 }
@@ -720,13 +720,33 @@ svg {
   color: #1F1F1F;
 }
 
-.resume-text {
+.resume-skills-left {
   text-align: left;
   padding: 5px;
   margin: 20px 20px 20px 20px;
   width: 360px;
   display: inline-block;
 }
+
+.resume-skills-right {
+  display: inline-block;
+  padding: 10px;
+  margin: 20px 20px 20px 20px;
+  float: right;
+}
+.resume-experience-top {
+  text-align: left;
+  padding: 5px;
+  margin: 20px 20px 0px 20px;
+  display: inline-block;
+}
+
+.resume-experience-bottom {
+  display: block;
+  padding: auto;
+  margin: 0px 20px 20px 20px;
+}
+
 
 .section-heading{
   padding: 10px;
