@@ -356,6 +356,12 @@ Default base code for hamburger display
   padding: 0px 23px;
 }
 
+.intro{
+  align-items: center;
+  margin: 100px;
+}
+
+
 /* ********************** MAIN ********************** */
 .header-container {
   /*border: solid #AA4A44;*/
@@ -368,8 +374,6 @@ Default base code for hamburger display
 }
 
 .Arin-logos-combined {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   display: inline-block;
   padding: 0px 0px 0px 0px;
   margin: 5px 5px 5px 5px;
@@ -747,16 +751,11 @@ svg {
   margin: 0px 20px 20px 20px;
 }
 
-
-.section-heading{
-  padding: 10px;
-  margin: 10px;
-
-}
-
 .section-break{
-  margin: 100px;
+  margin: 100px auto auto auto;
+  max-width: 740px;
 }
+
 
 
 
