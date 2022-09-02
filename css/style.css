@@ -233,7 +233,7 @@ ul {
 /* ********************** BUTTONS ********************** */
 .button {
   display: inline-block;
-  width: 125px;
+  width: auto;
   height: 40px;
   color: #FFFFFF;
   background-color: #46A0F8;
@@ -710,7 +710,7 @@ svg {
 .resume-item-container {
   background-color: #FFFFFF;
   padding: 20px 0px 20px 0px;
-  margin: 100PX auto;
+  margin: 20px auto 50px auto;
   width: auto;
   height: auto;
   box-shadow: 5px 5px 10px #1F1F1F;
@@ -726,6 +726,16 @@ svg {
   margin: 20px 20px 20px 20px;
   width: 360px;
   display: inline-block;
+}
+
+.section-heading{
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.section-break{
+  margin: 100px;
 }
 
 
