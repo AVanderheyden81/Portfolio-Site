@@ -24,3 +24,19 @@ $(document).ready(function(){
 //to ensure the menu items appear/dissapear on click X (myNavtoggle) now needs to be made responsive by applying the property (.class.Name)  to X telling it to be responsive by adding the ' responsive' class to the current/clicked (+=) hamburger menu.
 
 // X (myNavtoggle) is now also reponsive
+
+////////////////////////////////////////////////////////
+
+// call for Owl initializer function for carousel
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+
+
+// Auto width style caroseul function
+$('.owl-carousel').owlCarousel({
+    margin:100,
+    loop:false,
+    autoWidth:false,
+    items:1
+})
