@@ -764,6 +764,51 @@ svg {
   box-shadow: 5px 5px 10px #1F1F1F;
 }
 
+.contact-text {
+  text-align: left;
+  padding: 5px;
+  margin: 20px 20px 20px 20px;
+  width:360px;
+  display: inline-block;
+}
+
+input {
+  width:100%
+}
+
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #BFC0C5;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #46A0F8;
+  border: none;
+  color: #FFFFFF;
+  font-weight: bolder;
+  border-radius: 100px;
+  width:auto;
+  height: 40px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Avenir-Light';
+  transition-property: box-shadow;
+  transition-duration: 0.5s;
+  animation-duration: 650ms;
+  animation-name: button-drop;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+.button {
+}
+
+
 
 /* ******************** TEXT ******************** */
 .uppercase {
