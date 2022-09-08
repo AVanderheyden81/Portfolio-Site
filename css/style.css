@@ -120,6 +120,7 @@ h6 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 /* ******************** PARAGRAPHS ********************  */
 p {
   line-height: 1.5;
@@ -190,7 +191,6 @@ p {
   color: #FFFFFF;
 }
 
-
 .p4-blue {
   font-family: 'Avenir-Light', sans-serif;
   font-size: 12px;
@@ -223,10 +223,12 @@ p {
 ul {
   padding-inline-start: 20px;
 }
+
 .list-blue ul li {
   color: #46A0F8;
 }
-.list-blue ul li span{
+
+.list-blue ul li span {
   color: #1F1F1F;
 }
 
@@ -356,11 +358,10 @@ Default base code for hamburger display
   padding: 0px 23px;
 }
 
-.intro{
+.intro {
   align-items: center;
   margin: 100px;
 }
-
 
 /* ********************** MAIN ********************** */
 .header-container {
@@ -612,8 +613,6 @@ Default base code for hamburger display
 
 /* ********************** BOMBORA.HTML ********************** */
 .project-heading-block {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   display: block;
   text-align: center;
   padding: 10px;
@@ -621,19 +620,28 @@ Default base code for hamburger display
 }
 
 .project-text-block {
-  display: block;
   text-align: center;
   padding: 10px;
-  margin: 50px 100px 50px 100px;
+  margin: 25px auto 25px auto;
+
 }
 
+.project-text-block ul {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
+
+li {list-style-position: inside;}
+
 .carousel-image {
-    width: 200px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+  width: 250px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .project-graphical-block {
@@ -742,6 +750,7 @@ svg {
   margin: 20px 20px 20px 20px;
   float: right;
 }
+
 .resume-experience-top {
   text-align: left;
   padding: 5px;
@@ -755,13 +764,12 @@ svg {
   margin: 0px 20px 20px 20px;
 }
 
-.section-break{
+.section-break {
   margin: 100px auto auto auto;
   max-width: 740px;
 }
 
 /* ******************** CONTACT ******************** */
-
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -795,7 +803,7 @@ input[type=button], input[type=submit], input[type=reset] {
   color: #FFFFFF;
   font-weight: bolder;
   border-radius: 100px;
-  width:auto;
+  width: auto;
   height: 40px;
   padding: 10px;
   padding-left: 30px;
@@ -811,7 +819,6 @@ input[type=button], input[type=submit], input[type=reset] {
   animation-direction: normal;
   animation-timing-function: linear;
 }
-
 
 /* ******************** TEXT ******************** */
 .uppercase {
@@ -907,10 +914,10 @@ if screen size is 1920px OR LESS
     display: block;
   }
 
-.projects-text {
-  display: block;
-  width: auto;
-}
+  .projects-text {
+    display: block;
+    width: auto;
+  }
 
   .projects-container {
     height: auto;
@@ -958,18 +965,14 @@ if screen size is 470px or less
   }
 
   .profile-container {
-    width: 100%
-    height: auto;
+    width: 100% height: auto;
   }
-
 
   #portrait {
     width: 80%;
     margin: auto;
     margin-top: 30px;
   }
-
-
 
   /* =======================================================
   Code for hamburger display when RESPONSIVE task is toggled which only occurs on the smallest screen!!!
