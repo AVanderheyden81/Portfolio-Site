@@ -86,12 +86,14 @@ h2 {
 }
 
 h3 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 27px;
-  font-weight: 600;
-  color: #1F1F1F;
-  margin-top: 5px;
-  margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    color: #1F1F1F;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 h4 {
@@ -359,8 +361,10 @@ Default base code for hamburger display
 }
 
 .intro {
-  align-items: center;
-  margin: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
 
 /* ********************** MAIN ********************** */
@@ -399,7 +403,7 @@ Default base code for hamburger display
   margin: 0px 0px 0px 0px;
 }
 
-.Arin_logo_only_blue_noglo {
+.svg-blur {
   filter: drop-shadow(0px 4px 2px rgba(255, 255, 255, 1));
 }
 
@@ -462,7 +466,6 @@ Default base code for hamburger display
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
 }
 
 .copyright-element {
@@ -474,8 +477,6 @@ Default base code for hamburger display
 
 /* ********************** INDEX.HTML ********************** */
 .hero-container {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   align-items: center;
   margin: 100px auto;
   width: 1020px;
@@ -485,6 +486,7 @@ Default base code for hamburger display
 .profile-container {
   background-color: #FFFFFF;
   display: inline-block;
+  align-items: center;
   padding: 5px;
   width: 375px;
   height: auto;
@@ -501,17 +503,12 @@ Default base code for hamburger display
 }
 
 .name-title {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   text-align: center;
   padding: 10px 10px 10px 10px;
   margin: 15px 0px 30px 0px;
 }
 
 .social-container {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
-  display: inline-block;
   margin-top: 35px;
   margin-bottom: 5px;
   padding: 0px;
@@ -521,11 +518,13 @@ Default base code for hamburger display
 }
 
 .social-icons {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   display: inline-block;
   padding: 0px;
   margin: 5px;
+}
+
+.social-icons > :hover{
+  opacity: 0.5;
 }
 
 .welcome-container {
@@ -538,7 +537,7 @@ Default base code for hamburger display
   float: right;
 }
 
-@keyframes portrait-glow {
+/*@keyframes portrait-glow {
   0% {
     box-shadow: 0px 0px 4px 4px #ffffff;
   }
@@ -550,7 +549,7 @@ Default base code for hamburger display
   100% {
     box-shadow: 0px 0px 4px 4px #ffffff;
   }
-}
+}*/
 
 /* ********************** PROJECTS.HTML ********************** */
 .projects-intro-container {
@@ -642,6 +641,7 @@ li {list-style-position: inside;}
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
+  text-align: center
 }
 
 .project-graphical-block {
@@ -733,13 +733,14 @@ svg {
 }
 
 .list-blue h6 {
-  color: #1F1F1F;
+    color: #1F1F1F;
+    margin-left: 0px;
 }
 
 .resume-skills-left {
   text-align: left;
   padding: 5px;
-  margin: 20px 20px 20px 20px;
+  margin: 20px auto 20px 20px;
   width: 360px;
   display: inline-block;
 }
@@ -747,14 +748,14 @@ svg {
 .resume-skills-right {
   display: inline-block;
   padding: 10px;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 20px 20px auto;
   float: right;
 }
 
 .resume-experience-top {
   text-align: left;
   padding: 5px;
-  margin: 20px 20px 0px 20px;
+  margin: 20px 20px 20px 20px;
   display: inline-block;
 }
 
@@ -829,15 +830,20 @@ input[type=button], input[type=submit], input[type=reset] {
 #portrait {
   width: 250px;
   border-radius: 50%;
-  margin: 30px 30px 15px 30px;
+  text-align: center;
+  margin-left: 57px;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: auto;
 }
 
-#portrait:hover {
-  animation-name: portrait-glow;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
+/*#portrait:hover {
+    animation-name: portrait-glow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-left: 0px;
+}*/
 
 #breakline-black {
   border-color: #1F1F1F;
@@ -965,7 +971,8 @@ if screen size is 470px or less
   }
 
   .profile-container {
-    width: 100% height: auto;
+    width: 100%;
+    height: auto;
   }
 
   #portrait {
