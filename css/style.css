@@ -5,6 +5,7 @@ Header/Paragraph Text/Header & Footer (Black): #1F1F1F;
 Main Background (Grey): #BFC0C5;
 Contrasting Text/Boxes & Containers/Alternate Background (White): #FFFFFF;
 */
+
 /*
 Typography:
 Poppins Semi Bold
@@ -18,9 +19,8 @@ Sizes - 14px
 Avenir Light
 Use - Paragraphs & headings
 Sizes - 12px, 14px, 18px, 25px
-
-
 */
+
 @font-face {
   font-family: "Avenir-Light";
   src: url("Avenir-Light.eot");
@@ -28,6 +28,7 @@ Sizes - 12px, 14px, 18px, 25px
     url("Avenir-Light.otf") format("opentype"),
     url("Avenir-Light.svg#filename") format("svg");
 }
+
 
 @font-face {
   font-family: "Avenir-Roman";
@@ -58,11 +59,9 @@ body {
 }
 
 footer {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   background-color: #1f1f1f;
   padding: 5px 5px 5px 5px;
-  bottom: 0;
+  bottomf: 0;
   width: 100%;
 }
 
@@ -241,7 +240,6 @@ ul {
   height: 40px;
   color: #FFFFFF;
   background-color: #0875E0;
-  font-family: 'Avenir-Light';
   font-weight: bolder;
   padding: 10px;
   padding-left: 30px;
@@ -312,8 +310,6 @@ a:active {
 }
 
 .navigation {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   display: inline-block;
   padding: 0px 0px;
   margin: 0px 0px 0px 0px;
@@ -985,16 +981,26 @@ if screen size is 470px or less
   Code for hamburger display when RESPONSIVE task is toggled which only occurs on the smallest screen!!!
   ========================================================== */
   .navtoggle.responsive nav {
-    display: block;
+    display: inline-flex;
+    width: 100%;
     padding: 10px 0px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px auto;
   }
 
-  .navtoggle.responsive li {
-    display: block;
+  .navtoggle.responsive ul li {
+    display: inline-flex;
+    width: 100%;
     padding: 0px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
+    .navtoggle.responsive li a {
+    display: inline;
+    padding: 5px 6px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .navtoggle li .icon {
     position: absolute;
     right: 15px;
