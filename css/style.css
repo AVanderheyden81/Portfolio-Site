@@ -422,8 +422,6 @@ Default base code for hamburger display
 }
 
 .contact {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   color: #BFC0C5;
   font-family: Avenir-Roman;
   font-size: 14px;
@@ -432,8 +430,6 @@ Default base code for hamburger display
 }
 
 .contact-elements-all {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   padding: 10px;
   display: flex;
   align-items: center;
@@ -441,8 +437,6 @@ Default base code for hamburger display
 }
 
 .contact-elements-combined {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   display: inline-block;
   padding: 10px;
 }
@@ -785,11 +779,11 @@ svg {
 /* ******************** CONTACT ******************** */
 input[type=text], select, textarea {
   width: 100%;
+  margin-bottom: 40px; 
   padding: 12px;
-  border: none;
+  border: 1px solid #BFC0C5;
   border-bottom: 1px solid #BFC0C5;
   background: transparent;
-  border-radius: 4px;
   resize: vertical;
 }
 
@@ -810,6 +804,7 @@ input[type=text], select, textarea {
   display: inline-block;
 }
 
+
 input[type=button], input[type=submit], input[type=reset] {
   background-color: #0875E0;
   border: none;
@@ -821,6 +816,7 @@ input[type=button], input[type=submit], input[type=reset] {
   padding: 10px;
   padding-left: 30px;
   padding-right: 30px;
+  margin-bottom: 10px;
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
