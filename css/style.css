@@ -5,7 +5,6 @@ Header/Paragraph Text/Header & Footer (Black): #1F1F1F;
 Main Background (Grey): #BFC0C5;
 Contrasting Text/Boxes & Containers/Alternate Background (White): #FFFFFF;
 */
-
 /*
 Typography:
 Poppins Semi Bold
@@ -20,7 +19,6 @@ Avenir Light
 Use - Paragraphs & headings
 Sizes - 12px, 14px, 18px, 25px
 */
-
 @font-face {
   font-family: "Avenir-Light";
   src: url("Avenir-Light.eot");
@@ -28,7 +26,6 @@ Sizes - 12px, 14px, 18px, 25px
     url("Avenir-Light.otf") format("opentype"),
     url("Avenir-Light.svg#filename") format("svg");
 }
-
 
 @font-face {
   font-family: "Avenir-Roman";
@@ -85,14 +82,14 @@ h2 {
 }
 
 h3 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 27px;
-    font-weight: 600;
-    color: #1F1F1F;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 50px;
-    margin-left: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  color: #1F1F1F;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 h4 {
@@ -272,8 +269,6 @@ ul {
 }
 
 .breakline-long {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   border-top: solid;
   border-width: thin;
   width: auto;
@@ -316,8 +311,6 @@ a:active {
 }
 
 nav>ul {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   list-style-type: none;
   padding: inherit;
   margin: inherit;
@@ -365,8 +358,6 @@ Default base code for hamburger display
 
 /* ********************** MAIN ********************** */
 .header-container {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   padding: 5px 5px;
   margin: 5px 5px;
   display: flex;
@@ -382,8 +373,6 @@ Default base code for hamburger display
 }
 
 .Arin-logo {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   display: inline-block;
   float: left;
   padding: 5px 5px 5px 5px;
@@ -391,8 +380,6 @@ Default base code for hamburger display
 }
 
 .Arin-logo-text {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   display: inline-block;
   float: left;
   padding: 5px 5px 5px 5px;
@@ -413,8 +400,6 @@ Default base code for hamburger display
 }
 
 .contact-container {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   padding: 10px;
   display: inline-block;
 }
@@ -440,16 +425,12 @@ Default base code for hamburger display
 }
 
 .contact-elements {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   display: inline-block;
   padding: 10px;
   color: #BFC0C5;
 }
 
 .copyright-container {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   padding: 0px 0px;
   display: flex;
   align-items: center;
@@ -511,7 +492,7 @@ Default base code for hamburger display
   margin: 5px;
 }
 
-.social-icons > :hover{
+.social-icons> :hover {
   opacity: 0.5;
 }
 
@@ -538,7 +519,6 @@ Default base code for hamburger display
     box-shadow: 0px 0px 4px 4px #ffffff;
   }
 }*/
-
 /* ********************** PROJECTS.HTML ********************** */
 .projects-intro-container {
   display: block;
@@ -610,7 +590,6 @@ Default base code for hamburger display
   text-align: center;
   padding: 10px;
   margin: 25px auto 25px auto;
-
 }
 
 .project-text-block ul {
@@ -620,7 +599,9 @@ Default base code for hamburger display
   margin: auto;
 }
 
-li {list-style-position: inside;}
+li {
+  list-style-position: inside;
+}
 
 .carousel-image {
   width: auto;
@@ -632,13 +613,10 @@ li {list-style-position: inside;}
   text-align: center
 }
 
-.row{
+.row {
   display: inline-flex;
 }
 
-.column{
-  flex: 50%;
-}
 
 .carousel-image-ultra-small {
   display: inline-flex;
@@ -650,6 +628,7 @@ li {list-style-position: inside;}
   margin-bottom: auto;
   text-align: center
 }
+
 .carousel-image-small {
   width: 250px;
   height: auto;
@@ -659,6 +638,7 @@ li {list-style-position: inside;}
   margin-bottom: auto;
   text-align: center
 }
+
 .carousel-image-medium {
   width: 800px;
   height: auto;
@@ -677,8 +657,6 @@ li {list-style-position: inside;}
 }
 
 .project-text-graphical-block {
-  border: solid #AA4A44;
-  border-width: 1px;
   width: auto;
   display: block;
   text-align: center;
@@ -692,15 +670,11 @@ li {list-style-position: inside;}
 }
 
 .grid-container-2x2 {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   display: grid;
   grid-template-columns: auto auto;
 }
 
 .grid-item {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   text-align: center;
   padding: 5px;
   margin: 20px;
@@ -741,7 +715,6 @@ svg {
   vertical-align: top;
 }
 
-
 /* ******************** RESUME ******************** */
 .resume-item-container {
   text-align: left;
@@ -755,8 +728,8 @@ svg {
 }
 
 .list-blue h6 {
-    color: #1F1F1F;
-    margin-left: 0px;
+  color: #1F1F1F;
+  margin-left: 0px;
 }
 
 .resume-skills-left {
@@ -791,7 +764,6 @@ svg {
   margin: 100px auto auto auto;
   max-width: 740px;
 }
-
 
 /* ******************** CONTACT ******************** */
 input[type=text], select, textarea {
@@ -866,7 +838,6 @@ input[type=button], input[type=submit], input[type=reset] {
   background-color: #FFFFFF;
   box-shadow: 5px 5px 10px #1F1F1F;
 }*/
-
 .card {
   background-color: #FFFFFF;
   padding: 20px 0px 20px 0px;
@@ -894,7 +865,6 @@ input[type=button], input[type=submit], input[type=reset] {
   display: inline-block;
 }
 
-
 /* ******************** TEXT ******************** */
 .uppercase {
   text-transform: uppercase;
@@ -918,7 +888,6 @@ input[type=button], input[type=submit], input[type=reset] {
     animation-timing-function: linear;
     margin-left: 0px;
 }*/
-
 #breakline-black {
   border-color: #1F1F1F;
 }
@@ -954,8 +923,6 @@ if screen size is 1920px OR LESS
     display: none;
   }
 }
-
-
 
 /* ==============================
   if screen size is 1440px or less
@@ -1041,10 +1008,7 @@ if screen size is 1920px OR LESS
     padding-right: 25px;
     text-align: center
   }
-
-
 }
-
 
 /* ==============================
 if screen size is 640px or less
@@ -1059,9 +1023,7 @@ if screen size is 640px or less
     display: block;
     position: absolute;
   }
-
 }
-
 
 /* ==============================
 if screen size is 470px or less
@@ -1104,12 +1066,13 @@ if screen size is 470px or less
     margin-right: auto;
   }
 
-    .navtoggle.responsive li a {
+  .navtoggle.responsive li a {
     display: inline;
     padding: 5px 6px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .navtoggle li .icon {
     position: absolute;
     right: 15px;
