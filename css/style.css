@@ -404,12 +404,10 @@ Default base code for hamburger display
 }
 
 .footer-container {
-  /*border: solid #AA4A44;*/
-  /*border-width: 1px;*/
   padding: 0px 0px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 800px;
   margin: auto;
 }
