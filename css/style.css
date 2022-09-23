@@ -399,11 +399,6 @@ Default base code for hamburger display
   margin: auto;
 }
 
-.contact-container {
-  padding: 10px;
-  display: inline-block;
-}
-
 .contact {
   color: #BFC0C5;
   font-family: Avenir-Roman;
@@ -530,7 +525,7 @@ Default base code for hamburger display
 .projects-container {
   background-color: #FFFFFF;
   padding: 20px 0px 20px 0px;
-  margin: 100PX auto;
+  margin: 100px auto;
   width: 750px;
   height: 400px;
   box-shadow: 5px 5px 10px #1F1F1F;
@@ -779,11 +774,12 @@ input[type=text], select, textarea {
 .contact-container {
   background-color: #FFFFFF;
   padding: 20px 0px 20px 0px;
-  margin: 0PX auto 100px auto;
+  margin: 100px auto;
   width: 750px;
   height: 500px;
   box-shadow: 5px 5px 10px #1F1F1F;
 }
+
 
 .contact-text {
   text-align: left;
@@ -848,23 +844,6 @@ input[type=button], input[type=submit], input[type=reset] {
   box-shadow: 5px 5px 10px #1F1F1F;
 }
 
-.contact-container {
-  background-color: #FFFFFF;
-  padding: 20px 0px 20px 0px;
-  margin: 0PX auto 100px auto;
-  width: 750px;
-  height: 500px;
-  box-shadow: 5px 5px 10px #1F1F1F;
-}
-
-.contact-text {
-  text-align: left;
-  padding: 5px;
-  margin: 20px 20px 20px 20px;
-  width: 700px;
-  display: inline-block;
-}
-
 /* ******************** TEXT ******************** */
 .uppercase {
   text-transform: uppercase;
@@ -924,7 +903,7 @@ if screen size is 1920px OR LESS
   }
 }
 
-/* ==============================
+/* ===============================
   if screen size is 1440px or less
   ================================= */
 @media only screen and (max-width: 1440px) {
@@ -967,8 +946,16 @@ if screen size is 1920px OR LESS
     display: block;
     width: auto;
   }
+  .contact-text {
+    display: block;
+    width: auto;
+  }
 
   .projects-container {
+    height: auto;
+    width: 50%;
+  }
+  .contact-container {
     height: auto;
     width: 50%;
   }
