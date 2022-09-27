@@ -997,9 +997,11 @@ if screen size is 1920px OR LESS
   }
 }
 
-.sitemap{
-  width: 1400px;
+.image-left {
+  text-align: left;
+
 }
+
 
 
 /* ==============================
