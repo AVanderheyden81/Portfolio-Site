@@ -997,6 +997,11 @@ if screen size is 1920px OR LESS
   }
 }
 
+.sitemap{
+  width: 1400px;
+}
+
+
 /* ==============================
 if screen size is 640px or less
 ================================= */
