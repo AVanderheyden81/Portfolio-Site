@@ -852,7 +852,8 @@ input[type=button], input[type=submit], input[type=reset] {
 /* ******************** IDs ******************** */
 #portrait {
   width: 250px;
-  border-radius: 50%;
+  height: auto;
+  border-radius:50%;
   text-align: center;
   margin-left: 57px;
   margin-right: auto;
