@@ -379,6 +379,10 @@ Default base code for hamburger display
   margin: 0px 0px 0px 0px;
 }
 
+.Arin-logo> :hover {
+  opacity: 0.5;
+}
+
 .Arin-logo-text {
   display: inline-block;
   float: left;
