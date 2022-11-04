@@ -767,6 +767,32 @@ svg {
   max-width: 740px;
 }
 
+<<<<<<< HEAD
+
+/* ********************** PORTFOLIO.HTML ********************** */
+
+.image-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
+img.wireframes
+{
+display:inline-block;
+margin-left:auto;
+margin-right:auto;
+width:600px;
+height:auto;
+}
+
+#twoimages{text-align:center;}
+
+
+=======
+>>>>>>> parent of d02b565 (site revised)
 /* ******************** CONTACT ******************** */
 input[type=text], select, textarea {
   width: 100%;
