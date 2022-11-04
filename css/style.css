@@ -778,6 +778,12 @@ svg {
   width: 50%;
 }
 
+img.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
 img.wireframes
 {
 display:inline-block;
